@@ -12,7 +12,7 @@ add_to_catalog(
             "question": str,
         },
         reference_fields={"answer": str},
-        prediction_type=str,
+        prediction_type=float,
         metrics=["metrics.accuracy", "metrics.root_mean_squared_error"],
         augmentable_inputs=["question"],
         default_template="templates.qa.math.reasoning",

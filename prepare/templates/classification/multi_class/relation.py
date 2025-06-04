@@ -1,5 +1,6 @@
 from unitxt.catalog import add_to_catalog
 from unitxt.templates import InputOutputTemplate, TemplatesList
+from unitxt.processors import PostProcess, ExtractWithRegex
 
 add_to_catalog(
     InputOutputTemplate(

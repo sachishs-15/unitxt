@@ -2,6 +2,7 @@ import pandas as pd
 from unitxt.artifact import fetch_artifact
 from unitxt.catalog import add_to_catalog
 from unitxt.templates import MultipleChoiceTemplate, TemplatesList
+from unitxt.processors import PostProcess, ExtractWithRegex
 
 templates = {
     "with_topic": {

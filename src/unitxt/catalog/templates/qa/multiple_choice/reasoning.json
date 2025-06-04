@@ -1,0 +1,19 @@
+{
+    "__type__": "multiple_choice_template",
+    "instruction": "You are given a multiple choice question. Choose the correct option from the given options following the instructions carefully:\n\n1. Think step-by-step to arrive at the correct answer.\n2. Enclose your entire reasoning within <think> ... </think> tags.\n3. After the reasoning, provide your final answer only as a single character corresponding to the correct option within <response> ... </response> tags.\n4. Do not include any words, symbols, or explanations inside the <response> tag — only the correct option character.\n",
+    "input_format": "Question: {question}\nChoices:\n{choices}\n",
+    "target_field": "answer",
+    "choices_separator": "\n",
+    "postprocessors": [
+        {
+            "__type__": "post_process",
+            "process_references": false,
+            "operator": {
+                "__type__": "extract_with_regex",
+                "regex": "<response>(.*?)</response>"
+            }
+        },
+        "processors.first_character",
+        "processors.lower_case"
+    ]
+}
