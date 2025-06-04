@@ -41,7 +41,7 @@ for language in languages:
                 Deduplicate(by=["question", "answer", "original_question"]),
                 ExtractWithRegex(regex='####\s*(.*)', field="answer", to_field="answer"),
             ],
-            task="tasks.qa.math.reasoning",
+            task="tasks.qa.math",
             templates=["templates.qa.math.reasoning"],
             __tags__={
                 "annotations_creators": "no-annotation",
