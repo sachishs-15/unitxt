@@ -42,7 +42,7 @@ for language in languages:
                 ExtractWithRegex(regex='####\s*(.*)', field="answer", to_field="answer"),
             ],
             task="tasks.qa.math",
-            templates=["templates.qa.math.reasoning"],
+            templates=["templates.qa.math.reasoning", "templates.qa.math.simple"],
             __tags__={
                 "annotations_creators": "no-annotation",
                 "arxiv": ["2110.14168"],
@@ -71,7 +71,7 @@ for language in languages:
 
         add_to_catalog(
             card,
-            f"cards.reasoning.gsmk8k_indic.{language}",
+            f"cards.reasoning.gsm8k_indic.{language}",
             overwrite=True,
         )
   

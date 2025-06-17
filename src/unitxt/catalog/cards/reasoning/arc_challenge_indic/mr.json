@@ -1,0 +1,72 @@
+{
+    "__type__": "task_card",
+    "loader": {
+        "__type__": "load_hf",
+        "path": "sarvamai/arc-challenge-indic",
+        "data_dir": "mr",
+        "splits": [
+            "validation",
+            "test"
+        ]
+    },
+    "preprocess_steps": [
+        {
+            "__type__": "deduplicate",
+            "by": [
+                "question",
+                "answerKey",
+                "id",
+                "choices"
+            ]
+        },
+        {
+            "__type__": "rename_splits",
+            "mapper": {
+                "validation": "train"
+            }
+        },
+        {
+            "__type__": "rename",
+            "field_to_field": {
+                "answerKey": "answer"
+            }
+        },
+        {
+            "__type__": "map_instance_values",
+            "mappers": {
+                "answer": {
+                    "A": 0,
+                    "B": 1,
+                    "C": 2,
+                    "D": 3
+                }
+            }
+        },
+        {
+            "__type__": "copy",
+            "field": "choices/text",
+            "to_field": "choices"
+        }
+    ],
+    "task": "tasks.qa.multiple_choice.open",
+    "templates": [
+        "templates.qa.multiple_choice.reasoning"
+    ],
+    "__tags__": {
+        "annotations_creators": "found",
+        "arxiv": "1803.05457",
+        "language": "en",
+        "language_creators": "found",
+        "license": "cc-by-sa-4.0",
+        "multilinguality": "multilingual",
+        "region": "in",
+        "size_categories": "10K<n<100K",
+        "source_datasets": "original",
+        "task_categories": "question-answering",
+        "task_ids": [
+            "open-domain-qa",
+            "multiple-choice-qa"
+        ]
+    },
+    "__description__": "ARC Challenge Indic is a multilingual version of the AI2 Reasoning Challenge (ARC) dataset, translated into 10 Indian languages.\nA new dataset of 7,787 genuine grade-school level, multiple-choice science questions, assembled to encourage research in advanced question-answering. The dataset is partitioned into a Challenge Set and an Easy Set, where the former contains only questions answered incorrectly by both a retrieval-based algorithm and a word co-occurrence algorithm. We are also including a corpus of over 14 million science sentences.\nMore information can be found on the dataset page: https://huggingface.co/datasets/sarvamai/arc-challenge-indic\nMore information about the original dataset can be found on the ARC Challenge page: https://huggingface.co/datasets/allenai/ai2_arc"
+}

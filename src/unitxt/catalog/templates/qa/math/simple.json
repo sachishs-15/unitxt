@@ -1,0 +1,18 @@
+{
+    "__type__": "input_output_template",
+    "input_format": "Question: {question}\nAnswer:\n",
+    "output_format": "{answer}",
+    "postprocessors": [
+        "processors.extract_last_number",
+        {
+            "__type__": "post_process",
+            "process_references": true,
+            "process_prediction": true,
+            "operator": {
+                "__type__": "cast",
+                "to": "float",
+                "failure_default": 0.0
+            }
+        }
+    ]
+}

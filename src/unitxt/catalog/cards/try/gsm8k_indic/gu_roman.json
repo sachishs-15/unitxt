@@ -1,0 +1,76 @@
+{
+    "__type__": "task_card",
+    "loader": {
+        "__type__": "load_hf",
+        "path": "sarvamai/gsm8k-indic",
+        "data_dir": "gu_roman",
+        "split": "test"
+    },
+    "preprocess_steps": [
+        {
+            "__type__": "copy",
+            "field": "question",
+            "to_field": "question"
+        },
+        {
+            "__type__": "apply",
+            "function": "builtins.str",
+            "to_field": "response",
+            "_argv": [
+                "answer"
+            ]
+        }
+    ],
+    "task": {
+        "__type__": "task",
+        "input_fields": {
+            "question": "str"
+        },
+        "reference_fields": {
+            "response": "str"
+        },
+        "prediction_type": "float",
+        "metrics": [
+            "metrics.accuracy",
+            "metrics.spearman"
+        ]
+    },
+    "templates": {
+        "__type__": "templates_list",
+        "items": [
+            {
+                "__type__": "input_output_template",
+                "input_format": "You are a helpful and accurate math tutor. Solve the math problem following the instructions carefully:\n\n1. Think step-by-step to arrive at the correct answer.\n2. Enclose your entire reasoning within <think> ... </think> tags.\n3. After the reasoning, provide your final answer only as a single number with no units or text within <response> ... </response> tags.\n4. Do not include any words, symbols, or explanations inside the <response> tag — only the numeric answer.\nQuestion: {question}\n\n",
+                "output_format": "{response}",
+                "postprocessors": [
+                    {
+                        "__type__": "post_process",
+                        "process_prediction": false,
+                        "operator": {
+                            "__type__": "extract_with_regex",
+                            "regex": "####\\s*(.*)"
+                        }
+                    },
+                    {
+                        "__type__": "post_process",
+                        "process_references": false,
+                        "operator": {
+                            "__type__": "extract_with_regex",
+                            "regex": "<response>(.*?)</response>"
+                        }
+                    },
+                    {
+                        "__type__": "post_process",
+                        "process_references": true,
+                        "process_prediction": true,
+                        "operator": {
+                            "__type__": "cast",
+                            "to": "float",
+                            "failure_default": 0.0
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

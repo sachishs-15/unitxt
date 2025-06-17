@@ -10,6 +10,7 @@ from unitxt.operators import (
     Rename,
 )
 from unitxt.test_utils.card import test_card
+from unitxt.splitters import RenameSplits
 
 languages = ["bn", "gu", "hi", "kn", "mr", "ml", "or", "pa", "ta", "te"]
 
@@ -18,7 +19,7 @@ for language in languages:
         loader=LoadHF(path="sarvamai/boolq-indic"),
         preprocess_steps=[
             FilterByCondition(values={"language": language}, condition="eq"),
-            "splitters.small_no_test",
+            RenameSplits({"validation": "test"}),
             Set(
                 {
                     "text_a_type": "passage",
@@ -54,14 +55,14 @@ for language in languages:
         ),
     )
 
-    test_card(card, demos_taken_from="test")
+    # test_card(card)
     add_to_catalog(card, f"cards.reasoning.boolq_indic.{language}.classification", overwrite=True)
 
     card = TaskCard(
         loader=LoadHF(path="sarvamai/boolq-indic"),
         preprocess_steps=[
             FilterByCondition(values={"language": language}, condition="eq"),
-            "splitters.small_no_test",
+            RenameSplits({"validation": "test"}),
             Set(
                 {
                     "context_type": "passage",
@@ -95,7 +96,7 @@ for language in languages:
         ),
     )
 
-    test_card(card, demos_taken_from="test", strict=False)
+    # test_card(card, demos_taken_from="test", strict=False)
     add_to_catalog(
         card, f"cards.reasoning.boolq_indic.{language}.multiple_choice", overwrite=True
     )

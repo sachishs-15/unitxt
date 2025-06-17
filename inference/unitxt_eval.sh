@@ -1,0 +1,12 @@
+unitxt-evaluate \
+    --tasks "card=cards.reasoning.gsm8k.main" \
+    --model hf \
+    --model_args "pretrained=ibm-granite/granite-3.3-8b-instruct, max_new_tokens=8192" \
+    --split test \
+    --limit 300 \
+    --output_path ./results/try/unitxt_eval \
+    --log_samples \
+    --verbosity INFO \
+    --trust_remote_code \
+    --apply_chat_template \
+    --batch_size 8

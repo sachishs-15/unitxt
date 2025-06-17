@@ -1,0 +1,7 @@
+| score_name              |   score |   ci_low |   ci_high |
+|:------------------------|--------:|---------:|----------:|
+| accuracy                |    0.8  |      0.5 |      1    |
+| root_mean_squared_error |   19.76 |      0   |     32.89 |
+| score                   |    0.8  |      0.5 |      1    |
+Main Score: accuracy
+Num Instances: 10

@@ -139,7 +139,6 @@ for language in languages:
                     fields=["option_a", "option_b", "option_c", "option_d"],
                     to_field="choices",
                 ),
-                Set({"topic": subject.replace("_", " ")}),
             ],
             task="tasks.qa.multiple_choice.open",
             templates=["templates.qa.multiple_choice.reasoning"],

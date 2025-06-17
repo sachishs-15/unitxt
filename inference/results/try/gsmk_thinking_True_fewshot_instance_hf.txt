@@ -1,0 +1,653 @@
+
+
+                                                                                                              question  \
+0
+                Janet’s ducks lay 16 eggs per day. She eats three for breakfast every morning and bakes muffins for her friends every day with four. She sells the remainder at th
+e farmers' market daily for $2 per fresh duck egg. How much in dollars does she make every day at the farmers' market?
+1
+
+             A robe takes 2 bolts of blue fiber and half that much white fiber.  How many bolts in total does it take?
+2
+                                                                                                                   Josh decides to try flipping a house.  He buys a house for $80,
+000 and then puts in $50,000 in repairs.  This increased the value of the house by 150%.  How much profit did he make?
+3
+                                                                                                                                                                               Jam
+es decides to run 3 sprints 3 times a week.  He runs 60 meters each sprint.  How many total meters does he run a week?
+4  Every day, Wendi feeds each of her chickens three cups of mixed chicken feed, containing seeds, mealworms and vegetables to help keep them healthy.  She gives the chickens the
+ir feed in three separate meals. In the morning, she gives her flock of chickens 15 cups of feed.  In the afternoon, she gives her chickens another 25 cups of feed.  How many cup
+s of feed does she need to give her chickens in the final meal of the day if the size of Wendi's flock is 20 chickens?
+
+
+                                                                                                                                                        answer  \
+0
+                           Janet sells 16 - 3 - 4 = <<16-3-4=9>>9 duck eggs a day.\nShe makes 9 * 2 = $<<9*2=18>>18 every day at the farmer’s market.\n#### 18
+1
+                                          It takes 2/2=<<2/2=1>>1 bolt of white fiber\nSo the total amount of fabric is 2+1=<<2+1=3>>3 bolts of fabric\n#### 3
+2  The cost of the house and repairs came out to 80,000+50,000=$<<80000+50000=130000>>130,000\nHe increased the value of the house by 80,000*1.5=<<80000*1.5=120000>>120,000\nSo t
+he new value of the house is 120,000+80,000=$<<120000+80000=200000>>200,000\nSo he made a profit of 200,000-130,000=$<<200000-130000=70000>>70,000\n#### 70000
+3
+                                                                             He sprints 3*3=<<3*3=9>>9 times\nSo he runs 9*60=<<9*60=540>>540 meters\n#### 540
+4                                   If each chicken eats 3 cups of feed per day, then for 20 chickens they would need 3*20=<<3*20=60>>60 cups of feed per day.\nIf she feeds the f
+lock 15 cups of feed in the morning, and 25 cups in the afternoon, then the final meal would require 60-15-25=<<60-15-25=20>>20 cups of chicken feed.\n#### 20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                           demos  \
+0  [{'question': 'Natalia sold clips to 48 of her friends in April, and then she sold half as many clips in May. How many clips did Natalia sell altogether in April and May?', 'm
+etadata': {'data_classification_policy': ['public']}, 'answer': 'Natalia sold 48/2 = <<48/2=24>>24 clips in May.
+Natalia sold 48+24 = <<48+24=72>>72 clips altogether in April and May.
+#### 72'}, {'question': 'Ken created a care package to send to his brother, who was away at boarding school.  Ken placed a box on a scale, and then he poured into the box enough
+jelly beans to bring the weight to 2 pounds.  Then, he added enough brownies to cause the weight to triple.  Next, he added another 2 pounds of jelly beans.  And finally, he adde
+d enough gummy worms to double the weight once again.  What was the final weight of the box of goodies, in pounds?', 'metadata': {'data_classification_policy': ['public']}, 'answ
+er': 'To the initial 2 pounds of jelly beans, he added enough brownies to cause the weight to triple, bringing the weight to 2*3=<<2*3=6>>6 pounds.
+Next, he added another 2 pounds of jelly beans, bringing the weight to 6+2=<<6+2=8>>8 pounds.
+And finally, he added enough gummy worms to double the weight once again, to a final weight of 8*2=<<8*2=16>>16 pounds.
+#### 16'}, {'question': 'Mark has a garden with flowers. He planted plants of three different colors in it. Ten of them are yellow, and there are 80% more of those in purple. The
+re are only 25% as many green flowers as there are yellow and purple flowers. How many flowers does Mark have in his garden?', 'metadata': {'data_classification_policy': ['public
+']}, 'answer': 'There are 80/100 * 10 = <<80/100*10=8>>8 more purple flowers than yellow flowers.
+So in Mark's garden, there are 10 + 8 = <<10+8=18>>18 purple flowers.
+Purple and yellow flowers sum up to 10 + 18 = <<10+18=28>>28 flowers.
+That means in Mark's garden there are 25/100 * 28 = <<25/100*28=7>>7 green flowers.
+So in total Mark has 28 + 7 = <<28+7=35>>35 plants in his garden.
+#### 35'}, {'question': 'James writes a 3-page letter to 2 different friends twice a week.  How many pages does he write a year?', 'metadata': {'data_classification_policy': ['pu
+blic']}, 'answer': 'He writes each friend 3*2=<<3*2=6>>6 pages a week
+So he writes 6*2=<<6*2=12>>12 pages every week
+That means he writes 12*52=<<12*52=624>>624 pages a year
+#### 624'}, {'question': 'Julie is reading a 120-page book. Yesterday, she was able to read 12 pages and today, she read twice as many pages as yesterday. If she wants to read ha
+lf of the remaining pages tomorrow, how many pages should she read?', 'metadata': {'data_classification_policy': ['public']}, 'answer': 'Maila read 12 x 2 = <<12*2=24>>24 pages t
+oday.
+So she was able to read a total of 12 + 24 = <<12+24=36>>36 pages since yesterday.
+There are 120 - 36 = <<120-36=84>>84 pages left to be read.
+Since she wants to read half of the remaining pages tomorrow, then she should read 84/2 = <<84/2=42>>42 pages.
+#### 42'}, {'question': 'Albert is wondering how much pizza he can eat in one day. He buys 2 large pizzas and 2 small pizzas. A large pizza has 16 slices and a small pizza has 8
+slices. If he eats it all, how many pieces does he eat that day?', 'metadata': {'data_classification_policy': ['public']}, 'answer': 'He eats 32 from the largest pizzas because 2
+ x 16 = <<2*16=32>>32
+He eats 16 from the small pizza because 2 x 8 = <<2*8=16>>16
+He eats 48 pieces because 32 + 16 = <<32+16=48>>48
+#### 48'}, {'question': 'Alexis is applying for a new job and bought a new set of business clothes to wear to the interview. She went to a department store with a budget of $200
+and spent $30 on a button-up shirt, $46 on suit pants, $38 on a suit coat, $11 on socks, and $18 on a belt. She also purchased a pair of shoes, but lost the receipt for them. She
+ has $16 left from her budget. How much did Alexis pay for the shoes?', 'metadata': {'data_classification_policy': ['public']}, 'answer': 'Let S be the amount Alexis paid for the
+ shoes.
+She spent S + 30 + 46 + 38 + 11 + 18 = S + <<+30+46+38+11+18=143>>143.
+She used all but $16 of her budget, so S + 143 = 200 - 16 = 184.
+Thus, Alexis paid S = 184 - 143 = $<<184-143=41>>41 for the shoes.
+#### 41'}, {'question': 'Betty is saving money for a new wallet which costs $100. Betty has only half of the money she needs. Her parents decided to give her $15 for that purpose
+, and her grandparents twice as much as her parents. How much more money does Betty need to buy the wallet?', 'metadata': {'data_classification_policy': ['public']}, 'answer': 'I
+n the beginning, Betty has only 100 / 2 = $<<100/2=50>>50.
+Betty's grandparents gave her 15 * 2 = $<<15*2=30>>30.
+This means, Betty needs 100 - 50 - 30 - 15 = $<<100-50-30-15=5>>5 more.
+#### 5'}]
+1                                                                                                                                                                               [{
+'question': 'Alexis is applying for a new job and bought a new set of business clothes to wear to the interview. She went to a department store with a budget of $200 and spent $3
+0 on a button-up shirt, $46 on suit pants, $38 on a suit coat, $11 on socks, and $18 on a belt. She also purchased a pair of shoes, but lost the receipt for them. She has $16 lef
+t from her budget. How much did Alexis pay for the shoes?', 'metadata': {'data_classification_policy': ['public']}, 'answer': 'Let S be the amount Alexis paid for the shoes.
+She spent S + 30 + 46 + 38 + 11 + 18 = S + <<+30+46+38+11+18=143>>143.
+She used all but $16 of her budget, so S + 143 = 200 - 16 = 184.
+Thus, Alexis paid S = 184 - 143 = $<<184-143=41>>41 for the shoes.
+#### 41'}, {'question': 'Julie is reading a 120-page book. Yesterday, she was able to read 12 pages and today, she read twice as many pages as yesterday. If she wants to read hal
+f of the remaining pages tomorrow, how many pages should she read?', 'metadata': {'data_classification_policy': ['public']}, 'answer': 'Maila read 12 x 2 = <<12*2=24>>24 pages to
+day.
+So she was able to read a total of 12 + 24 = <<12+24=36>>36 pages since yesterday.
+There are 120 - 36 = <<120-36=84>>84 pages left to be read.
+Since she wants to read half of the remaining pages tomorrow, then she should read 84/2 = <<84/2=42>>42 pages.
+#### 42'}, {'question': 'Ken created a care package to send to his brother, who was away at boarding school.  Ken placed a box on a scale, and then he poured into the box enough
+jelly beans to bring the weight to 2 pounds.  Then, he added enough brownies to cause the weight to triple.  Next, he added another 2 pounds of jelly beans.  And finally, he adde
+d enough gummy worms to double the weight once again.  What was the final weight of the box of goodies, in pounds?', 'metadata': {'data_classification_policy': ['public']}, 'answ
+er': 'To the initial 2 pounds of jelly beans, he added enough brownies to cause the weight to triple, bringing the weight to 2*3=<<2*3=6>>6 pounds.
+Next, he added another 2 pounds of jelly beans, bringing the weight to 6+2=<<6+2=8>>8 pounds.
+And finally, he added enough gummy worms to double the weight once again, to a final weight of 8*2=<<8*2=16>>16 pounds.
+#### 16'}, {'question': 'James writes a 3-page letter to 2 different friends twice a week.  How many pages does he write a year?', 'metadata': {'data_classification_policy': ['pu
+blic']}, 'answer': 'He writes each friend 3*2=<<3*2=6>>6 pages a week
+So he writes 6*2=<<6*2=12>>12 pages every week
+That means he writes 12*52=<<12*52=624>>624 pages a year
+#### 624'}, {'question': 'Mark has a garden with flowers. He planted plants of three different colors in it. Ten of them are yellow, and there are 80% more of those in purple. Th
+ere are only 25% as many green flowers as there are yellow and purple flowers. How many flowers does Mark have in his garden?', 'metadata': {'data_classification_policy': ['publi
+c']}, 'answer': 'There are 80/100 * 10 = <<80/100*10=8>>8 more purple flowers than yellow flowers.
+So in Mark's garden, there are 10 + 8 = <<10+8=18>>18 purple flowers.
+Purple and yellow flowers sum up to 10 + 18 = <<10+18=28>>28 flowers.
+That means in Mark's garden there are 25/100 * 28 = <<25/100*28=7>>7 green flowers.
+So in total Mark has 28 + 7 = <<28+7=35>>35 plants in his garden.
+#### 35'}, {'question': 'Betty is saving money for a new wallet which costs $100. Betty has only half of the money she needs. Her parents decided to give her $15 for that purpose
+, and her grandparents twice as much as her parents. How much more money does Betty need to buy the wallet?', 'metadata': {'data_classification_policy': ['public']}, 'answer': 'I
+n the beginning, Betty has only 100 / 2 = $<<100/2=50>>50.
+Betty's grandparents gave her 15 * 2 = $<<15*2=30>>30.
+This means, Betty needs 100 - 50 - 30 - 15 = $<<100-50-30-15=5>>5 more.
+#### 5'}, {'question': 'Natalia sold clips to 48 of her friends in April, and then she sold half as many clips in May. How many clips did Natalia sell altogether in April and May
+?', 'metadata': {'data_classification_policy': ['public']}, 'answer': 'Natalia sold 48/2 = <<48/2=24>>24 clips in May.
+Natalia sold 48+24 = <<48+24=72>>72 clips altogether in April and May.
+#### 72'}, {'question': 'Weng earns $12 an hour for babysitting. Yesterday, she just did 50 minutes of babysitting. How much did she earn?', 'metadata': {'data_classification_pol
+icy': ['public']}, 'answer': 'Weng earns 12/60 = $<<12/60=0.2>>0.2 per minute.
+Working 50 minutes, she earned 0.2 x 50 = $<<0.2*50=10>>10.
+#### 10'}]
+2
+                                                                                                                           [{'question': 'Albert is wondering how much pizza he ca
+n eat in one day. He buys 2 large pizzas and 2 small pizzas. A large pizza has 16 slices and a small pizza has 8 slices. If he eats it all, how many pieces does he eat that day?'
+, 'metadata': {'data_classification_policy': ['public']}, 'answer': 'He eats 32 from the largest pizzas because 2 x 16 = <<2*16=32>>32
+He eats 16 from the small pizza because 2 x 8 = <<2*8=16>>16
+He eats 48 pieces because 32 + 16 = <<32+16=48>>48
+#### 48'}, {'question': 'Mark has a garden with flowers. He planted plants of three different colors in it. Ten of them are yellow, and there are 80% more of those in purple. The
+re are only 25% as many green flowers as there are yellow and purple flowers. How many flowers does Mark have in his garden?', 'metadata': {'data_classification_policy': ['public
+']}, 'answer': 'There are 80/100 * 10 = <<80/100*10=8>>8 more purple flowers than yellow flowers.
+So in Mark's garden, there are 10 + 8 = <<10+8=18>>18 purple flowers.
+Purple and yellow flowers sum up to 10 + 18 = <<10+18=28>>28 flowers.
+That means in Mark's garden there are 25/100 * 28 = <<25/100*28=7>>7 green flowers.
+So in total Mark has 28 + 7 = <<28+7=35>>35 plants in his garden.
+#### 35'}, {'question': 'James writes a 3-page letter to 2 different friends twice a week.  How many pages does he write a year?', 'metadata': {'data_classification_policy': ['pu
+blic']}, 'answer': 'He writes each friend 3*2=<<3*2=6>>6 pages a week
+So he writes 6*2=<<6*2=12>>12 pages every week
+That means he writes 12*52=<<12*52=624>>624 pages a year
+#### 624'}, {'question': 'Alexis is applying for a new job and bought a new set of business clothes to wear to the interview. She went to a department store with a budget of $200
+ and spent $30 on a button-up shirt, $46 on suit pants, $38 on a suit coat, $11 on socks, and $18 on a belt. She also purchased a pair of shoes, but lost the receipt for them. Sh
+e has $16 left from her budget. How much did Alexis pay for the shoes?', 'metadata': {'data_classification_policy': ['public']}, 'answer': 'Let S be the amount Alexis paid for th
+e shoes.
+She spent S + 30 + 46 + 38 + 11 + 18 = S + <<+30+46+38+11+18=143>>143.
+She used all but $16 of her budget, so S + 143 = 200 - 16 = 184.
+Thus, Alexis paid S = 184 - 143 = $<<184-143=41>>41 for the shoes.
+#### 41'}, {'question': 'Betty is saving money for a new wallet which costs $100. Betty has only half of the money she needs. Her parents decided to give her $15 for that purpose
+, and her grandparents twice as much as her parents. How much more money does Betty need to buy the wallet?', 'metadata': {'data_classification_policy': ['public']}, 'answer': 'I
+n the beginning, Betty has only 100 / 2 = $<<100/2=50>>50.
+Betty's grandparents gave her 15 * 2 = $<<15*2=30>>30.
+This means, Betty needs 100 - 50 - 30 - 15 = $<<100-50-30-15=5>>5 more.
+#### 5'}, {'question': 'Natalia sold clips to 48 of her friends in April, and then she sold half as many clips in May. How many clips did Natalia sell altogether in April and May
+?', 'metadata': {'data_classification_policy': ['public']}, 'answer': 'Natalia sold 48/2 = <<48/2=24>>24 clips in May.
+Natalia sold 48+24 = <<48+24=72>>72 clips altogether in April and May.
+#### 72'}, {'question': 'Weng earns $12 an hour for babysitting. Yesterday, she just did 50 minutes of babysitting. How much did she earn?', 'metadata': {'data_classification_pol
+icy': ['public']}, 'answer': 'Weng earns 12/60 = $<<12/60=0.2>>0.2 per minute.
+Working 50 minutes, she earned 0.2 x 50 = $<<0.2*50=10>>10.
+#### 10'}, {'question': 'Ken created a care package to send to his brother, who was away at boarding school.  Ken placed a box on a scale, and then he poured into the box enough
+jelly beans to bring the weight to 2 pounds.  Then, he added enough brownies to cause the weight to triple.  Next, he added another 2 pounds of jelly beans.  And finally, he adde
+d enough gummy worms to double the weight once again.  What was the final weight of the box of goodies, in pounds?', 'metadata': {'data_classification_policy': ['public']}, 'answ
+er': 'To the initial 2 pounds of jelly beans, he added enough brownies to cause the weight to triple, bringing the weight to 2*3=<<2*3=6>>6 pounds.
+Next, he added another 2 pounds of jelly beans, bringing the weight to 6+2=<<6+2=8>>8 pounds.
+And finally, he added enough gummy worms to double the weight once again, to a final weight of 8*2=<<8*2=16>>16 pounds.
+#### 16'}]
+3
+
+                                                                           [{'question': 'Albert is wondering how much pizza he can eat in one day. He buys 2 large pizzas and 2 s
+mall pizzas. A large pizza has 16 slices and a small pizza has 8 slices. If he eats it all, how many pieces does he eat that day?', 'metadata': {'data_classification_policy': ['p
+ublic']}, 'answer': 'He eats 32 from the largest pizzas because 2 x 16 = <<2*16=32>>32
+He eats 16 from the small pizza because 2 x 8 = <<2*8=16>>16
+He eats 48 pieces because 32 + 16 = <<32+16=48>>48
+#### 48'}, {'question': 'James writes a 3-page letter to 2 different friends twice a week.  How many pages does he write a year?', 'metadata': {'data_classification_policy': ['pu
+blic']}, 'answer': 'He writes each friend 3*2=<<3*2=6>>6 pages a week
+So he writes 6*2=<<6*2=12>>12 pages every week
+That means he writes 12*52=<<12*52=624>>624 pages a year
+#### 624'}, {'question': 'Weng earns $12 an hour for babysitting. Yesterday, she just did 50 minutes of babysitting. How much did she earn?', 'metadata': {'data_classification_po
+licy': ['public']}, 'answer': 'Weng earns 12/60 = $<<12/60=0.2>>0.2 per minute.
+Working 50 minutes, she earned 0.2 x 50 = $<<0.2*50=10>>10.
+#### 10'}, {'question': 'Mark has a garden with flowers. He planted plants of three different colors in it. Ten of them are yellow, and there are 80% more of those in purple. The
+re are only 25% as many green flowers as there are yellow and purple flowers. How many flowers does Mark have in his garden?', 'metadata': {'data_classification_policy': ['public
+']}, 'answer': 'There are 80/100 * 10 = <<80/100*10=8>>8 more purple flowers than yellow flowers.
+So in Mark's garden, there are 10 + 8 = <<10+8=18>>18 purple flowers.
+Purple and yellow flowers sum up to 10 + 18 = <<10+18=28>>28 flowers.
+That means in Mark's garden there are 25/100 * 28 = <<25/100*28=7>>7 green flowers.
+So in total Mark has 28 + 7 = <<28+7=35>>35 plants in his garden.
+#### 35'}, {'question': 'Julie is reading a 120-page book. Yesterday, she was able to read 12 pages and today, she read twice as many pages as yesterday. If she wants to read hal
+f of the remaining pages tomorrow, how many pages should she read?', 'metadata': {'data_classification_policy': ['public']}, 'answer': 'Maila read 12 x 2 = <<12*2=24>>24 pages to
+day.
+So she was able to read a total of 12 + 24 = <<12+24=36>>36 pages since yesterday.
+There are 120 - 36 = <<120-36=84>>84 pages left to be read.
+Since she wants to read half of the remaining pages tomorrow, then she should read 84/2 = <<84/2=42>>42 pages.
+#### 42'}, {'question': 'Betty is saving money for a new wallet which costs $100. Betty has only half of the money she needs. Her parents decided to give her $15 for that purpose
+, and her grandparents twice as much as her parents. How much more money does Betty need to buy the wallet?', 'metadata': {'data_classification_policy': ['public']}, 'answer': 'I
+n the beginning, Betty has only 100 / 2 = $<<100/2=50>>50.
+Betty's grandparents gave her 15 * 2 = $<<15*2=30>>30.
+This means, Betty needs 100 - 50 - 30 - 15 = $<<100-50-30-15=5>>5 more.
+#### 5'}, {'question': 'Natalia sold clips to 48 of her friends in April, and then she sold half as many clips in May. How many clips did Natalia sell altogether in April and May
+?', 'metadata': {'data_classification_policy': ['public']}, 'answer': 'Natalia sold 48/2 = <<48/2=24>>24 clips in May.
+Natalia sold 48+24 = <<48+24=72>>72 clips altogether in April and May.
+#### 72'}, {'question': 'Ken created a care package to send to his brother, who was away at boarding school.  Ken placed a box on a scale, and then he poured into the box enough
+jelly beans to bring the weight to 2 pounds.  Then, he added enough brownies to cause the weight to triple.  Next, he added another 2 pounds of jelly beans.  And finally, he adde
+d enough gummy worms to double the weight once again.  What was the final weight of the box of goodies, in pounds?', 'metadata': {'data_classification_policy': ['public']}, 'answ
+er': 'To the initial 2 pounds of jelly beans, he added enough brownies to cause the weight to triple, bringing the weight to 2*3=<<2*3=6>>6 pounds.
+Next, he added another 2 pounds of jelly beans, bringing the weight to 6+2=<<6+2=8>>8 pounds.
+And finally, he added enough gummy worms to double the weight once again, to a final weight of 8*2=<<8*2=16>>16 pounds.
+#### 16'}]
+4  [{'question': 'Mark has a garden with flowers. He planted plants of three different colors in it. Ten of them are yellow, and there are 80% more of those in purple. There are
+only 25% as many green flowers as there are yellow and purple flowers. How many flowers does Mark have in his garden?', 'metadata': {'data_classification_policy': ['public']}, 'a
+nswer': 'There are 80/100 * 10 = <<80/100*10=8>>8 more purple flowers than yellow flowers.
+So in Mark's garden, there are 10 + 8 = <<10+8=18>>18 purple flowers.
+Purple and yellow flowers sum up to 10 + 18 = <<10+18=28>>28 flowers.
+That means in Mark's garden there are 25/100 * 28 = <<25/100*28=7>>7 green flowers.
+So in total Mark has 28 + 7 = <<28+7=35>>35 plants in his garden.
+#### 35'}, {'question': 'Alexis is applying for a new job and bought a new set of business clothes to wear to the interview. She went to a department store with a budget of $200
+and spent $30 on a button-up shirt, $46 on suit pants, $38 on a suit coat, $11 on socks, and $18 on a belt. She also purchased a pair of shoes, but lost the receipt for them. She
+ has $16 left from her budget. How much did Alexis pay for the shoes?', 'metadata': {'data_classification_policy': ['public']}, 'answer': 'Let S be the amount Alexis paid for the
+ shoes.
+She spent S + 30 + 46 + 38 + 11 + 18 = S + <<+30+46+38+11+18=143>>143.
+She used all but $16 of her budget, so S + 143 = 200 - 16 = 184.
+Thus, Alexis paid S = 184 - 143 = $<<184-143=41>>41 for the shoes.
+#### 41'}, {'question': 'Ken created a care package to send to his brother, who was away at boarding school.  Ken placed a box on a scale, and then he poured into the box enough
+jelly beans to bring the weight to 2 pounds.  Then, he added enough brownies to cause the weight to triple.  Next, he added another 2 pounds of jelly beans.  And finally, he adde
+d enough gummy worms to double the weight once again.  What was the final weight of the box of goodies, in pounds?', 'metadata': {'data_classification_policy': ['public']}, 'answ
+er': 'To the initial 2 pounds of jelly beans, he added enough brownies to cause the weight to triple, bringing the weight to 2*3=<<2*3=6>>6 pounds.
+Next, he added another 2 pounds of jelly beans, bringing the weight to 6+2=<<6+2=8>>8 pounds.
+And finally, he added enough gummy worms to double the weight once again, to a final weight of 8*2=<<8*2=16>>16 pounds.
+#### 16'}, {'question': 'Betty is saving money for a new wallet which costs $100. Betty has only half of the money she needs. Her parents decided to give her $15 for that purpose
+, and her grandparents twice as much as her parents. How much more money does Betty need to buy the wallet?', 'metadata': {'data_classification_policy': ['public']}, 'answer': 'I
+n the beginning, Betty has only 100 / 2 = $<<100/2=50>>50.
+Betty's grandparents gave her 15 * 2 = $<<15*2=30>>30.
+This means, Betty needs 100 - 50 - 30 - 15 = $<<100-50-30-15=5>>5 more.
+#### 5'}, {'question': 'Albert is wondering how much pizza he can eat in one day. He buys 2 large pizzas and 2 small pizzas. A large pizza has 16 slices and a small pizza has 8 s
+lices. If he eats it all, how many pieces does he eat that day?', 'metadata': {'data_classification_policy': ['public']}, 'answer': 'He eats 32 from the largest pizzas because 2
+x 16 = <<2*16=32>>32
+He eats 16 from the small pizza because 2 x 8 = <<2*8=16>>16
+He eats 48 pieces because 32 + 16 = <<32+16=48>>48
+#### 48'}, {'question': 'James writes a 3-page letter to 2 different friends twice a week.  How many pages does he write a year?', 'metadata': {'data_classification_policy': ['pu
+blic']}, 'answer': 'He writes each friend 3*2=<<3*2=6>>6 pages a week
+So he writes 6*2=<<6*2=12>>12 pages every week
+That means he writes 12*52=<<12*52=624>>624 pages a year
+#### 624'}, {'question': 'Natalia sold clips to 48 of her friends in April, and then she sold half as many clips in May. How many clips did Natalia sell altogether in April and M
+ay?', 'metadata': {'data_classification_policy': ['public']}, 'answer': 'Natalia sold 48/2 = <<48/2=24>>24 clips in May.
+Natalia sold 48+24 = <<48+24=72>>72 clips altogether in April and May.
+#### 72'}, {'question': 'Julie is reading a 120-page book. Yesterday, she was able to read 12 pages and today, she read twice as many pages as yesterday. If she wants to read hal
+f of the remaining pages tomorrow, how many pages should she read?', 'metadata': {'data_classification_policy': ['public']}, 'answer': 'Maila read 12 x 2 = <<12*2=24>>24 pages to
+day.
+So she was able to read a total of 12 + 24 = <<12+24=36>>36 pages since yesterday.
+There are 120 - 36 = <<120-36=84>>84 pages left to be read.
+Since she wants to read half of the remaining pages tomorrow, then she should read 84/2 = <<84/2=42>>42 pages.
+#### 42'}]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                               source  \
+0
+                <|start_of_role|>system<|end_of_role|>Knowledge Cutoff Date: April 2024.\nToday's Date: June 16, 2025.\nYou are Granite, developed by IBM. You are a helpful AI as
+sistant.\nRespond to every user query in a comprehensive and detailed way. You can write down your thoughts and reasoning process before responding. In the thought process, engag
+e in a comprehensive cycle of analysis, summarization, exploration, reassessment, reflection, backtracing, and iteration to develop well-considered thinking process. In the respo
+nse section, based on various attempts, explorations, and reflections from the thoughts section, systematically present the final solution that you deem correct. The response sho
+uld summarize the thought process. Write your thoughts between <think></think> and write your response between <response></response> for each user query.<|end_of_text|>\n<|start_
+of_role|>user<|end_of_role|>Q: Natalia sold clips to 48 of her friends in April, and then she sold half as many clips in May. How many clips did Natalia sell altogether in April
+and May?\nA:<|end_of_text|>\n<|start_of_role|>assistant<|end_of_role|>Natalia sold 48/2 = <<48/2=24>>24 clips in May.\nNatalia sold 48+24 = <<48+24=72>>72 clips altogether in Apr
+il and May.\n#### 72<|end_of_text|>\n<|start_of_role|>user<|end_of_role|>Q: Ken created a care package to send to his brother, who was away at boarding school.  Ken placed a box
+on a scale, and then he poured into the box enough jelly beans to bring the weight to 2 pounds.  Then, he added enough brownies to cause the weight to triple.  Next, he added ano
+ther 2 pounds of jelly beans.  And finally, he added enough gummy worms to double the weight once again.  What was the final weight of the box of goodies, in pounds?\nA:<|end_of_
+text|>\n<|start_of_role|>assistant<|end_of_role|>To the initial 2 pounds of jelly beans, he added enough brownies to cause the weight to triple, bringing the weight to 2*3=<<2*3=
+6>>6 pounds.\nNext, he added another 2 pounds of jelly beans, bringing the weight to 6+2=<<6+2=8>>8 pounds.\nAnd finally, he added enough gummy worms to double the weight once ag
+ain, to a final weight of 8*2=<<8*2=16>>16 pounds.\n#### 16<|end_of_text|>\n<|start_of_role|>user<|end_of_role|>Q: Mark has a garden with flowers. He planted plants of three diff
+erent colors in it. Ten of them are yellow, and there are 80% more of those in purple. There are only 25% as many green flowers as there are yellow and purple flowers. How many f
+lowers does Mark have in his garden?\nA:<|end_of_text|>\n<|start_of_role|>assistant<|end_of_role|>There are 80/100 * 10 = <<80/100*10=8>>8 more purple flowers than yellow flowers
+.\nSo in Mark's garden, there are 10 + 8 = <<10+8=18>>18 purple flowers.\nPurple and yellow flowers sum up to 10 + 18 = <<10+18=28>>28 flowers.\nThat means in Mark's garden there
+ are 25/100 * 28 = <<25/100*28=7>>7 green flowers.\nSo in total Mark has 28 + 7 = <<28+7=35>>35 plants in his garden.\n#### 35<|end_of_text|>\n<|start_of_role|>user<|end_of_role|
+>Q: James writes a 3-page letter to 2 different friends twice a week.  How many pages does he write a year?\nA:<|end_of_text|>\n<|start_of_role|>assistant<|end_of_role|>He writes
+ each friend 3*2=<<3*2=6>>6 pages a week\nSo he writes 6*2=<<6*2=12>>12 pages every week\nThat means he writes 12*52=<<12*52=624>>624 pages a year\n#### 624<|end_of_text|>\n<|sta
+rt_of_role|>user<|end_of_role|>Q: Julie is reading a 120-page book. Yesterday, she was able to read 12 pages and today, she read twice as many pages as yesterday. If she wants to
+ read half of the remaining pages tomorrow, how many pages should she read?\nA:<|end_of_text|>\n<|start_of_role|>assistant<|end_of_role|>Maila read 12 x 2 = <<12*2=24>>24 pages t
+oday.\nSo she was able to read a total of 12 + 24 = <<12+24=36>>36 pages since yesterday.\nThere are 120 - 36 = <<120-36=84>>84 pages left to be read.\nSince she wants to read ha
+lf of the remaining pages tomorrow, then she should read 84/2 = <<84/2=42>>42 pages.\n#### 42<|end_of_text|>\n<|start_of_role|>user<|end_of_role|>Q: Albert is wondering how much
+pizza he can eat in one day. He buys 2 large pizzas and 2 small pizzas. A large pizza has 16 slices and a small pizza has 8 slices. If he eats it all, how many pieces does he eat
+ that day?\nA:<|end_of_text|>\n<|start_of_role|>assistant<|end_of_role|>He eats 32 from the largest pizzas because 2 x 16 = <<2*16=32>>32\nHe eats 16 from the small pizza because
+ 2 x 8 = <<2*8=16>>16\nHe eats 48 pieces because 32 + 16 = <<32+16=48>>48\n#### 48<|end_of_text|>\n<|start_of_role|>user<|end_of_role|>Q: Alexis is applying for a new job and bou
+ght a new set of business clothes to wear to the interview. She went to a department store with a budget of $200 and spent $30 on a button-up shirt, $46 on suit pants, $38 on a s
+uit coat, $11 on socks, and $18 on a belt. She also purchased a pair of shoes, but lost the receipt for them. She has $16 left from her budget. How much did Alexis pay for the sh
+oes?\nA:<|end_of_text|>\n<|start_of_role|>assistant<|end_of_role|>Let S be the amount Alexis paid for the shoes.\nShe spent S + 30 + 46 + 38 + 11 + 18 = S + <<+30+46+38+11+18=143
+>>143.\nShe used all but $16 of her budget, so S + 143 = 200 - 16 = 184.\nThus, Alexis paid S = 184 - 143 = $<<184-143=41>>41 for the shoes.\n#### 41<|end_of_text|>\n<|start_of_r
+ole|>user<|end_of_role|>Q: Betty is saving money for a new wallet which costs $100. Betty has only half of the money she needs. Her parents decided to give her $15 for that purpo
+se, and her grandparents twice as much as her parents. How much more money does Betty need to buy the wallet?\nA:<|end_of_text|>\n<|start_of_role|>assistant<|end_of_role|>In the
+beginning, Betty has only 100 / 2 = $<<100/2=50>>50.\nBetty's grandparents gave her 15 * 2 = $<<15*2=30>>30.\nThis means, Betty needs 100 - 50 - 30 - 15 = $<<100-50-30-15=5>>5 mo
+re.\n#### 5<|end_of_text|>\n<|start_of_role|>user<|end_of_role|>Q: Janet’s ducks lay 16 eggs per day. She eats three for breakfast every morning and bakes muffins for her friends
+ every day with four. She sells the remainder at the farmers' market daily for $2 per fresh duck egg. How much in dollars does she make every day at the farmers' market?\nA:<|end
+_of_text|>\n<|start_of_role|>assistant<|end_of_role|>
+1
+
+
+         <|start_of_role|>system<|end_of_role|>Knowledge Cutoff Date: April 2024.\nToday's Date: June 16, 2025.\nYou are Granite, developed by IBM. You are a helpful AI assistant
+.\nRespond to every user query in a comprehensive and detailed way. You can write down your thoughts and reasoning process before responding. In the thought process, engage in a
+comprehensive cycle of analysis, summarization, exploration, reassessment, reflection, backtracing, and iteration to develop well-considered thinking process. In the response sec
+tion, based on various attempts, explorations, and reflections from the thoughts section, systematically present the final solution that you deem correct. The response should sum
+marize the thought process. Write your thoughts between <think></think> and write your response between <response></response> for each user query.<|end_of_text|>\n<|start_of_role
+|>user<|end_of_role|>Q: Alexis is applying for a new job and bought a new set of business clothes to wear to the interview. She went to a department store with a budget of $200 a
+nd spent $30 on a button-up shirt, $46 on suit pants, $38 on a suit coat, $11 on socks, and $18 on a belt. She also purchased a pair of shoes, but lost the receipt for them. She
+has $16 left from her budget. How much did Alexis pay for the shoes?\nA:<|end_of_text|>\n<|start_of_role|>assistant<|end_of_role|>Let S be the amount Alexis paid for the shoes.\n
+She spent S + 30 + 46 + 38 + 11 + 18 = S + <<+30+46+38+11+18=143>>143.\nShe used all but $16 of her budget, so S + 143 = 200 - 16 = 184.\nThus, Alexis paid S = 184 - 143 = $<<184
+-143=41>>41 for the shoes.\n#### 41<|end_of_text|>\n<|start_of_role|>user<|end_of_role|>Q: Julie is reading a 120-page book. Yesterday, she was able to read 12 pages and today, s
+he read twice as many pages as yesterday. If she wants to read half of the remaining pages tomorrow, how many pages should she read?\nA:<|end_of_text|>\n<|start_of_role|>assistan
+t<|end_of_role|>Maila read 12 x 2 = <<12*2=24>>24 pages today.\nSo she was able to read a total of 12 + 24 = <<12+24=36>>36 pages since yesterday.\nThere are 120 - 36 = <<120-36=
+84>>84 pages left to be read.\nSince she wants to read half of the remaining pages tomorrow, then she should read 84/2 = <<84/2=42>>42 pages.\n#### 42<|end_of_text|>\n<|start_of_
+role|>user<|end_of_role|>Q: Ken created a care package to send to his brother, who was away at boarding school.  Ken placed a box on a scale, and then he poured into the box enou
+gh jelly beans to bring the weight to 2 pounds.  Then, he added enough brownies to cause the weight to triple.  Next, he added another 2 pounds of jelly beans.  And finally, he a
+dded enough gummy worms to double the weight once again.  What was the final weight of the box of goodies, in pounds?\nA:<|end_of_text|>\n<|start_of_role|>assistant<|end_of_role|
+>To the initial 2 pounds of jelly beans, he added enough brownies to cause the weight to triple, bringing the weight to 2*3=<<2*3=6>>6 pounds.\nNext, he added another 2 pounds of
+ jelly beans, bringing the weight to 6+2=<<6+2=8>>8 pounds.\nAnd finally, he added enough gummy worms to double the weight once again, to a final weight of 8*2=<<8*2=16>>16 pound
+s.\n#### 16<|end_of_text|>\n<|start_of_role|>user<|end_of_role|>Q: James writes a 3-page letter to 2 different friends twice a week.  How many pages does he write a year?\nA:<|en
+d_of_text|>\n<|start_of_role|>assistant<|end_of_role|>He writes each friend 3*2=<<3*2=6>>6 pages a week\nSo he writes 6*2=<<6*2=12>>12 pages every week\nThat means he writes 12*5
+2=<<12*52=624>>624 pages a year\n#### 624<|end_of_text|>\n<|start_of_role|>user<|end_of_role|>Q: Mark has a garden with flowers. He planted plants of three different colors in it
+. Ten of them are yellow, and there are 80% more of those in purple. There are only 25% as many green flowers as there are yellow and purple flowers. How many flowers does Mark h
+ave in his garden?\nA:<|end_of_text|>\n<|start_of_role|>assistant<|end_of_role|>There are 80/100 * 10 = <<80/100*10=8>>8 more purple flowers than yellow flowers.\nSo in Mark's ga
+rden, there are 10 + 8 = <<10+8=18>>18 purple flowers.\nPurple and yellow flowers sum up to 10 + 18 = <<10+18=28>>28 flowers.\nThat means in Mark's garden there are 25/100 * 28 =
+ <<25/100*28=7>>7 green flowers.\nSo in total Mark has 28 + 7 = <<28+7=35>>35 plants in his garden.\n#### 35<|end_of_text|>\n<|start_of_role|>user<|end_of_role|>Q: Betty is savin
+g money for a new wallet which costs $100. Betty has only half of the money she needs. Her parents decided to give her $15 for that purpose, and her grandparents twice as much as
+ her parents. How much more money does Betty need to buy the wallet?\nA:<|end_of_text|>\n<|start_of_role|>assistant<|end_of_role|>In the beginning, Betty has only 100 / 2 = $<<10
+0/2=50>>50.\nBetty's grandparents gave her 15 * 2 = $<<15*2=30>>30.\nThis means, Betty needs 100 - 50 - 30 - 15 = $<<100-50-30-15=5>>5 more.\n#### 5<|end_of_text|>\n<|start_of_ro
+le|>user<|end_of_role|>Q: Natalia sold clips to 48 of her friends in April, and then she sold half as many clips in May. How many clips did Natalia sell altogether in April and M
+ay?\nA:<|end_of_text|>\n<|start_of_role|>assistant<|end_of_role|>Natalia sold 48/2 = <<48/2=24>>24 clips in May.\nNatalia sold 48+24 = <<48+24=72>>72 clips altogether in April an
+d May.\n#### 72<|end_of_text|>\n<|start_of_role|>user<|end_of_role|>Q: Weng earns $12 an hour for babysitting. Yesterday, she just did 50 minutes of babysitting. How much did she
+ earn?\nA:<|end_of_text|>\n<|start_of_role|>assistant<|end_of_role|>Weng earns 12/60 = $<<12/60=0.2>>0.2 per minute.\nWorking 50 minutes, she earned 0.2 x 50 = $<<0.2*50=10>>10.\
+n#### 10<|end_of_text|>\n<|start_of_role|>user<|end_of_role|>Q: A robe takes 2 bolts of blue fiber and half that much white fiber.  How many bolts in total does it take?\nA:<|end
+_of_text|>\n<|start_of_role|>assistant<|end_of_role|>
+2
+
+
+                                                           <|start_of_role|>system<|end_of_role|>Knowledge Cutoff Date: April 2024.\nToday's Date: June 16, 2025.\nYou are Granite
+, developed by IBM. You are a helpful AI assistant.\nRespond to every user query in a comprehensive and detailed way. You can write down your thoughts and reasoning process befor
+e responding. In the thought process, engage in a comprehensive cycle of analysis, summarization, exploration, reassessment, reflection, backtracing, and iteration to develop wel
+l-considered thinking process. In the response section, based on various attempts, explorations, and reflections from the thoughts section, systematically present the final solut
+ion that you deem correct. The response should summarize the thought process. Write your thoughts between <think></think> and write your response between <response></response> fo
+r each user query.<|end_of_text|>\n<|start_of_role|>user<|end_of_role|>Q: Albert is wondering how much pizza he can eat in one day. He buys 2 large pizzas and 2 small pizzas. A l
+arge pizza has 16 slices and a small pizza has 8 slices. If he eats it all, how many pieces does he eat that day?\nA:<|end_of_text|>\n<|start_of_role|>assistant<|end_of_role|>He
+eats 32 from the largest pizzas because 2 x 16 = <<2*16=32>>32\nHe eats 16 from the small pizza because 2 x 8 = <<2*8=16>>16\nHe eats 48 pieces because 32 + 16 = <<32+16=48>>48\n
+#### 48<|end_of_text|>\n<|start_of_role|>user<|end_of_role|>Q: Mark has a garden with flowers. He planted plants of three different colors in it. Ten of them are yellow, and ther
+e are 80% more of those in purple. There are only 25% as many green flowers as there are yellow and purple flowers. How many flowers does Mark have in his garden?\nA:<|end_of_tex
+t|>\n<|start_of_role|>assistant<|end_of_role|>There are 80/100 * 10 = <<80/100*10=8>>8 more purple flowers than yellow flowers.\nSo in Mark's garden, there are 10 + 8 = <<10+8=18
+>>18 purple flowers.\nPurple and yellow flowers sum up to 10 + 18 = <<10+18=28>>28 flowers.\nThat means in Mark's garden there are 25/100 * 28 = <<25/100*28=7>>7 green flowers.\n
+So in total Mark has 28 + 7 = <<28+7=35>>35 plants in his garden.\n#### 35<|end_of_text|>\n<|start_of_role|>user<|end_of_role|>Q: James writes a 3-page letter to 2 different frie
+nds twice a week.  How many pages does he write a year?\nA:<|end_of_text|>\n<|start_of_role|>assistant<|end_of_role|>He writes each friend 3*2=<<3*2=6>>6 pages a week\nSo he writ
+es 6*2=<<6*2=12>>12 pages every week\nThat means he writes 12*52=<<12*52=624>>624 pages a year\n#### 624<|end_of_text|>\n<|start_of_role|>user<|end_of_role|>Q: Alexis is applying
+ for a new job and bought a new set of business clothes to wear to the interview. She went to a department store with a budget of $200 and spent $30 on a button-up shirt, $46 on
+suit pants, $38 on a suit coat, $11 on socks, and $18 on a belt. She also purchased a pair of shoes, but lost the receipt for them. She has $16 left from her budget. How much did
+ Alexis pay for the shoes?\nA:<|end_of_text|>\n<|start_of_role|>assistant<|end_of_role|>Let S be the amount Alexis paid for the shoes.\nShe spent S + 30 + 46 + 38 + 11 + 18 = S +
+ <<+30+46+38+11+18=143>>143.\nShe used all but $16 of her budget, so S + 143 = 200 - 16 = 184.\nThus, Alexis paid S = 184 - 143 = $<<184-143=41>>41 for the shoes.\n#### 41<|end_o
+f_text|>\n<|start_of_role|>user<|end_of_role|>Q: Betty is saving money for a new wallet which costs $100. Betty has only half of the money she needs. Her parents decided to give
+her $15 for that purpose, and her grandparents twice as much as her parents. How much more money does Betty need to buy the wallet?\nA:<|end_of_text|>\n<|start_of_role|>assistant
+<|end_of_role|>In the beginning, Betty has only 100 / 2 = $<<100/2=50>>50.\nBetty's grandparents gave her 15 * 2 = $<<15*2=30>>30.\nThis means, Betty needs 100 - 50 - 30 - 15 = $
+<<100-50-30-15=5>>5 more.\n#### 5<|end_of_text|>\n<|start_of_role|>user<|end_of_role|>Q: Natalia sold clips to 48 of her friends in April, and then she sold half as many clips in
+ May. How many clips did Natalia sell altogether in April and May?\nA:<|end_of_text|>\n<|start_of_role|>assistant<|end_of_role|>Natalia sold 48/2 = <<48/2=24>>24 clips in May.\nN
+atalia sold 48+24 = <<48+24=72>>72 clips altogether in April and May.\n#### 72<|end_of_text|>\n<|start_of_role|>user<|end_of_role|>Q: Weng earns $12 an hour for babysitting. Yest
+erday, she just did 50 minutes of babysitting. How much did she earn?\nA:<|end_of_text|>\n<|start_of_role|>assistant<|end_of_role|>Weng earns 12/60 = $<<12/60=0.2>>0.2 per minute
+.\nWorking 50 minutes, she earned 0.2 x 50 = $<<0.2*50=10>>10.\n#### 10<|end_of_text|>\n<|start_of_role|>user<|end_of_role|>Q: Ken created a care package to send to his brother,
+who was away at boarding school.  Ken placed a box on a scale, and then he poured into the box enough jelly beans to bring the weight to 2 pounds.  Then, he added enough brownies
+ to cause the weight to triple.  Next, he added another 2 pounds of jelly beans.  And finally, he added enough gummy worms to double the weight once again.  What was the final we
+ight of the box of goodies, in pounds?\nA:<|end_of_text|>\n<|start_of_role|>assistant<|end_of_role|>To the initial 2 pounds of jelly beans, he added enough brownies to cause the
+weight to triple, bringing the weight to 2*3=<<2*3=6>>6 pounds.\nNext, he added another 2 pounds of jelly beans, bringing the weight to 6+2=<<6+2=8>>8 pounds.\nAnd finally, he ad
+ded enough gummy worms to double the weight once again, to a final weight of 8*2=<<8*2=16>>16 pounds.\n#### 16<|end_of_text|>\n<|start_of_role|>user<|end_of_role|>Q: Josh decides
+ to try flipping a house.  He buys a house for $80,000 and then puts in $50,000 in repairs.  This increased the value of the house by 150%.  How much profit did he make?\nA:<|end
+_of_text|>\n<|start_of_role|>assistant<|end_of_role|>
+3
+
+
+
+                                                                       <|start_of_role|>system<|end_of_role|>Knowledge Cutoff Date: April 2024.\nToday's Date: June 16, 2025.\nYou
+ are Granite, developed by IBM. You are a helpful AI assistant.\nRespond to every user query in a comprehensive and detailed way. You can write down your thoughts and reasoning p
+rocess before responding. In the thought process, engage in a comprehensive cycle of analysis, summarization, exploration, reassessment, reflection, backtracing, and iteration to
+ develop well-considered thinking process. In the response section, based on various attempts, explorations, and reflections from the thoughts section, systematically present the
+ final solution that you deem correct. The response should summarize the thought process. Write your thoughts between <think></think> and write your response between <response></
+response> for each user query.<|end_of_text|>\n<|start_of_role|>user<|end_of_role|>Q: Albert is wondering how much pizza he can eat in one day. He buys 2 large pizzas and 2 small
+ pizzas. A large pizza has 16 slices and a small pizza has 8 slices. If he eats it all, how many pieces does he eat that day?\nA:<|end_of_text|>\n<|start_of_role|>assistant<|end_
+of_role|>He eats 32 from the largest pizzas because 2 x 16 = <<2*16=32>>32\nHe eats 16 from the small pizza because 2 x 8 = <<2*8=16>>16\nHe eats 48 pieces because 32 + 16 = <<32
++16=48>>48\n#### 48<|end_of_text|>\n<|start_of_role|>user<|end_of_role|>Q: James writes a 3-page letter to 2 different friends twice a week.  How many pages does he write a year?
+\nA:<|end_of_text|>\n<|start_of_role|>assistant<|end_of_role|>He writes each friend 3*2=<<3*2=6>>6 pages a week\nSo he writes 6*2=<<6*2=12>>12 pages every week\nThat means he wri
+tes 12*52=<<12*52=624>>624 pages a year\n#### 624<|end_of_text|>\n<|start_of_role|>user<|end_of_role|>Q: Weng earns $12 an hour for babysitting. Yesterday, she just did 50 minute
+s of babysitting. How much did she earn?\nA:<|end_of_text|>\n<|start_of_role|>assistant<|end_of_role|>Weng earns 12/60 = $<<12/60=0.2>>0.2 per minute.\nWorking 50 minutes, she ea
+rned 0.2 x 50 = $<<0.2*50=10>>10.\n#### 10<|end_of_text|>\n<|start_of_role|>user<|end_of_role|>Q: Mark has a garden with flowers. He planted plants of three different colors in i
+t. Ten of them are yellow, and there are 80% more of those in purple. There are only 25% as many green flowers as there are yellow and purple flowers. How many flowers does Mark
+have in his garden?\nA:<|end_of_text|>\n<|start_of_role|>assistant<|end_of_role|>There are 80/100 * 10 = <<80/100*10=8>>8 more purple flowers than yellow flowers.\nSo in Mark's g
+arden, there are 10 + 8 = <<10+8=18>>18 purple flowers.\nPurple and yellow flowers sum up to 10 + 18 = <<10+18=28>>28 flowers.\nThat means in Mark's garden there are 25/100 * 28
+= <<25/100*28=7>>7 green flowers.\nSo in total Mark has 28 + 7 = <<28+7=35>>35 plants in his garden.\n#### 35<|end_of_text|>\n<|start_of_role|>user<|end_of_role|>Q: Julie is read
+ing a 120-page book. Yesterday, she was able to read 12 pages and today, she read twice as many pages as yesterday. If she wants to read half of the remaining pages tomorrow, how
+ many pages should she read?\nA:<|end_of_text|>\n<|start_of_role|>assistant<|end_of_role|>Maila read 12 x 2 = <<12*2=24>>24 pages today.\nSo she was able to read a total of 12 +
+24 = <<12+24=36>>36 pages since yesterday.\nThere are 120 - 36 = <<120-36=84>>84 pages left to be read.\nSince she wants to read half of the remaining pages tomorrow, then she sh
+ould read 84/2 = <<84/2=42>>42 pages.\n#### 42<|end_of_text|>\n<|start_of_role|>user<|end_of_role|>Q: Betty is saving money for a new wallet which costs $100. Betty has only half
+ of the money she needs. Her parents decided to give her $15 for that purpose, and her grandparents twice as much as her parents. How much more money does Betty need to buy the w
+allet?\nA:<|end_of_text|>\n<|start_of_role|>assistant<|end_of_role|>In the beginning, Betty has only 100 / 2 = $<<100/2=50>>50.\nBetty's grandparents gave her 15 * 2 = $<<15*2=30
+>>30.\nThis means, Betty needs 100 - 50 - 30 - 15 = $<<100-50-30-15=5>>5 more.\n#### 5<|end_of_text|>\n<|start_of_role|>user<|end_of_role|>Q: Natalia sold clips to 48 of her frie
+nds in April, and then she sold half as many clips in May. How many clips did Natalia sell altogether in April and May?\nA:<|end_of_text|>\n<|start_of_role|>assistant<|end_of_rol
+e|>Natalia sold 48/2 = <<48/2=24>>24 clips in May.\nNatalia sold 48+24 = <<48+24=72>>72 clips altogether in April and May.\n#### 72<|end_of_text|>\n<|start_of_role|>user<|end_of_
+role|>Q: Ken created a care package to send to his brother, who was away at boarding school.  Ken placed a box on a scale, and then he poured into the box enough jelly beans to b
+ring the weight to 2 pounds.  Then, he added enough brownies to cause the weight to triple.  Next, he added another 2 pounds of jelly beans.  And finally, he added enough gummy w
+orms to double the weight once again.  What was the final weight of the box of goodies, in pounds?\nA:<|end_of_text|>\n<|start_of_role|>assistant<|end_of_role|>To the initial 2 p
+ounds of jelly beans, he added enough brownies to cause the weight to triple, bringing the weight to 2*3=<<2*3=6>>6 pounds.\nNext, he added another 2 pounds of jelly beans, bring
+ing the weight to 6+2=<<6+2=8>>8 pounds.\nAnd finally, he added enough gummy worms to double the weight once again, to a final weight of 8*2=<<8*2=16>>16 pounds.\n#### 16<|end_of
+_text|>\n<|start_of_role|>user<|end_of_role|>Q: James decides to run 3 sprints 3 times a week.  He runs 60 meters each sprint.  How many total meters does he run a week?\nA:<|end
+_of_text|>\n<|start_of_role|>assistant<|end_of_role|>
+4  <|start_of_role|>system<|end_of_role|>Knowledge Cutoff Date: April 2024.\nToday's Date: June 16, 2025.\nYou are Granite, developed by IBM. You are a helpful AI assistant.\nRes
+pond to every user query in a comprehensive and detailed way. You can write down your thoughts and reasoning process before responding. In the thought process, engage in a compre
+hensive cycle of analysis, summarization, exploration, reassessment, reflection, backtracing, and iteration to develop well-considered thinking process. In the response section,
+based on various attempts, explorations, and reflections from the thoughts section, systematically present the final solution that you deem correct. The response should summarize
+ the thought process. Write your thoughts between <think></think> and write your response between <response></response> for each user query.<|end_of_text|>\n<|start_of_role|>user
+<|end_of_role|>Q: Mark has a garden with flowers. He planted plants of three different colors in it. Ten of them are yellow, and there are 80% more of those in purple. There are
+only 25% as many green flowers as there are yellow and purple flowers. How many flowers does Mark have in his garden?\nA:<|end_of_text|>\n<|start_of_role|>assistant<|end_of_role|
+>There are 80/100 * 10 = <<80/100*10=8>>8 more purple flowers than yellow flowers.\nSo in Mark's garden, there are 10 + 8 = <<10+8=18>>18 purple flowers.\nPurple and yellow flowe
+rs sum up to 10 + 18 = <<10+18=28>>28 flowers.\nThat means in Mark's garden there are 25/100 * 28 = <<25/100*28=7>>7 green flowers.\nSo in total Mark has 28 + 7 = <<28+7=35>>35 p
+lants in his garden.\n#### 35<|end_of_text|>\n<|start_of_role|>user<|end_of_role|>Q: Alexis is applying for a new job and bought a new set of business clothes to wear to the inte
+rview. She went to a department store with a budget of $200 and spent $30 on a button-up shirt, $46 on suit pants, $38 on a suit coat, $11 on socks, and $18 on a belt. She also p
+urchased a pair of shoes, but lost the receipt for them. She has $16 left from her budget. How much did Alexis pay for the shoes?\nA:<|end_of_text|>\n<|start_of_role|>assistant<|
+end_of_role|>Let S be the amount Alexis paid for the shoes.\nShe spent S + 30 + 46 + 38 + 11 + 18 = S + <<+30+46+38+11+18=143>>143.\nShe used all but $16 of her budget, so S + 14
+3 = 200 - 16 = 184.\nThus, Alexis paid S = 184 - 143 = $<<184-143=41>>41 for the shoes.\n#### 41<|end_of_text|>\n<|start_of_role|>user<|end_of_role|>Q: Ken created a care package
+ to send to his brother, who was away at boarding school.  Ken placed a box on a scale, and then he poured into the box enough jelly beans to bring the weight to 2 pounds.  Then,
+ he added enough brownies to cause the weight to triple.  Next, he added another 2 pounds of jelly beans.  And finally, he added enough gummy worms to double the weight once agai
+n.  What was the final weight of the box of goodies, in pounds?\nA:<|end_of_text|>\n<|start_of_role|>assistant<|end_of_role|>To the initial 2 pounds of jelly beans, he added enou
+gh brownies to cause the weight to triple, bringing the weight to 2*3=<<2*3=6>>6 pounds.\nNext, he added another 2 pounds of jelly beans, bringing the weight to 6+2=<<6+2=8>>8 po
+unds.\nAnd finally, he added enough gummy worms to double the weight once again, to a final weight of 8*2=<<8*2=16>>16 pounds.\n#### 16<|end_of_text|>\n<|start_of_role|>user<|end
+_of_role|>Q: Betty is saving money for a new wallet which costs $100. Betty has only half of the money she needs. Her parents decided to give her $15 for that purpose, and her gr
+andparents twice as much as her parents. How much more money does Betty need to buy the wallet?\nA:<|end_of_text|>\n<|start_of_role|>assistant<|end_of_role|>In the beginning, Bet
+ty has only 100 / 2 = $<<100/2=50>>50.\nBetty's grandparents gave her 15 * 2 = $<<15*2=30>>30.\nThis means, Betty needs 100 - 50 - 30 - 15 = $<<100-50-30-15=5>>5 more.\n#### 5<|e
+nd_of_text|>\n<|start_of_role|>user<|end_of_role|>Q: Albert is wondering how much pizza he can eat in one day. He buys 2 large pizzas and 2 small pizzas. A large pizza has 16 sli
+ces and a small pizza has 8 slices. If he eats it all, how many pieces does he eat that day?\nA:<|end_of_text|>\n<|start_of_role|>assistant<|end_of_role|>He eats 32 from the larg
+est pizzas because 2 x 16 = <<2*16=32>>32\nHe eats 16 from the small pizza because 2 x 8 = <<2*8=16>>16\nHe eats 48 pieces because 32 + 16 = <<32+16=48>>48\n#### 48<|end_of_text|
+>\n<|start_of_role|>user<|end_of_role|>Q: James writes a 3-page letter to 2 different friends twice a week.  How many pages does he write a year?\nA:<|end_of_text|>\n<|start_of_r
+ole|>assistant<|end_of_role|>He writes each friend 3*2=<<3*2=6>>6 pages a week\nSo he writes 6*2=<<6*2=12>>12 pages every week\nThat means he writes 12*52=<<12*52=624>>624 pages
+a year\n#### 624<|end_of_text|>\n<|start_of_role|>user<|end_of_role|>Q: Natalia sold clips to 48 of her friends in April, and then she sold half as many clips in May. How many cl
+ips did Natalia sell altogether in April and May?\nA:<|end_of_text|>\n<|start_of_role|>assistant<|end_of_role|>Natalia sold 48/2 = <<48/2=24>>24 clips in May.\nNatalia sold 48+24
+ = <<48+24=72>>72 clips altogether in April and May.\n#### 72<|end_of_text|>\n<|start_of_role|>user<|end_of_role|>Q: Julie is reading a 120-page book. Yesterday, she was able to
+read 12 pages and today, she read twice as many pages as yesterday. If she wants to read half of the remaining pages tomorrow, how many pages should she read?\nA:<|end_of_text|>\
+n<|start_of_role|>assistant<|end_of_role|>Maila read 12 x 2 = <<12*2=24>>24 pages today.\nSo she was able to read a total of 12 + 24 = <<12+24=36>>36 pages since yesterday.\nTher
+e are 120 - 36 = <<120-36=84>>84 pages left to be read.\nSince she wants to read half of the remaining pages tomorrow, then she should read 84/2 = <<84/2=42>>42 pages.\n#### 42<|
+end_of_text|>\n<|start_of_role|>user<|end_of_role|>Q: Every day, Wendi feeds each of her chickens three cups of mixed chicken feed, containing seeds, mealworms and vegetables to
+help keep them healthy.  She gives the chickens their feed in three separate meals. In the morning, she gives her flock of chickens 15 cups of feed.  In the afternoon, she gives
+her chickens another 25 cups of feed.  How many cups of feed does she need to give her chickens in the final meal of the day if the size of Wendi's flock is 20 chickens?\nA:<|end
+_of_text|>\n<|start_of_role|>assistant<|end_of_role|>
+
+                                               metrics  \
+0  [metrics.accuracy, metrics.root_mean_squared_error]
+1  [metrics.accuracy, metrics.root_mean_squared_error]
+2  [metrics.accuracy, metrics.root_mean_squared_error]
+3  [metrics.accuracy, metrics.root_mean_squared_error]
+4  [metrics.accuracy, metrics.root_mean_squared_error]
+
+
+
+
+
+
+
+
+                                                                                                 postprocessors  \
+0  [PostProcess(__type__='post_process', __title__=None, __description__=None, __tags__={}, __deprecated_msg__=None, data_classification_policy=None, requirements=[], caching=Non
+e, operator=ExtractWithRegex(__type__='extract_with_regex', __title__=None, __description__=None, __tags__={}, __deprecated_msg__=None, data_classification_policy=None, requireme
+nts=[], caching=None, apply_to_streams=None, dont_apply_to_streams=None, field=None, to_field=None, field_to_field=None, use_query=None, process_every_value=False, get_default=No
+ne, not_exist_ok=False, not_exist_do_nothing=False, regex='####\\s*(.*)', termination_regex=None), process_prediction=False, process_references=True), processors.extract_last_num
+ber, PostProcess(__type__='post_process', __title__=None, __description__=None, __tags__={}, __deprecated_msg__=None, data_classification_policy=None, requirements=[], caching=No
+ne, operator=Cast(__type__='cast', __title__=None, __description__=None, __tags__={}, __deprecated_msg__=None, data_classification_policy=None, requirements=[], caching=None, app
+ly_to_streams=None, dont_apply_to_streams=None, field=None, to_field=None, field_to_field=None, use_query=None, process_every_value=False, get_default=None, not_exist_ok=False, n
+ot_exist_do_nothing=False, to='float', failure_default=0.0), process_prediction=True, process_references=True)]
+1  [PostProcess(__type__='post_process', __title__=None, __description__=None, __tags__={}, __deprecated_msg__=None, data_classification_policy=None, requirements=[], caching=Non
+e, operator=ExtractWithRegex(__type__='extract_with_regex', __title__=None, __description__=None, __tags__={}, __deprecated_msg__=None, data_classification_policy=None, requireme
+nts=[], caching=None, apply_to_streams=None, dont_apply_to_streams=None, field=None, to_field=None, field_to_field=None, use_query=None, process_every_value=False, get_default=No
+ne, not_exist_ok=False, not_exist_do_nothing=False, regex='####\\s*(.*)', termination_regex=None), process_prediction=False, process_references=True), processors.extract_last_num
+ber, PostProcess(__type__='post_process', __title__=None, __description__=None, __tags__={}, __deprecated_msg__=None, data_classification_policy=None, requirements=[], caching=No
+ne, operator=Cast(__type__='cast', __title__=None, __description__=None, __tags__={}, __deprecated_msg__=None, data_classification_policy=None, requirements=[], caching=None, app
+ly_to_streams=None, dont_apply_to_streams=None, field=None, to_field=None, field_to_field=None, use_query=None, process_every_value=False, get_default=None, not_exist_ok=False, n
+ot_exist_do_nothing=False, to='float', failure_default=0.0), process_prediction=True, process_references=True)]
+2  [PostProcess(__type__='post_process', __title__=None, __description__=None, __tags__={}, __deprecated_msg__=None, data_classification_policy=None, requirements=[], caching=Non
+e, operator=ExtractWithRegex(__type__='extract_with_regex', __title__=None, __description__=None, __tags__={}, __deprecated_msg__=None, data_classification_policy=None, requireme
+nts=[], caching=None, apply_to_streams=None, dont_apply_to_streams=None, field=None, to_field=None, field_to_field=None, use_query=None, process_every_value=False, get_default=No
+ne, not_exist_ok=False, not_exist_do_nothing=False, regex='####\\s*(.*)', termination_regex=None), process_prediction=False, process_references=True), processors.extract_last_num
+ber, PostProcess(__type__='post_process', __title__=None, __description__=None, __tags__={}, __deprecated_msg__=None, data_classification_policy=None, requirements=[], caching=No
+ne, operator=Cast(__type__='cast', __title__=None, __description__=None, __tags__={}, __deprecated_msg__=None, data_classification_policy=None, requirements=[], caching=None, app
+ly_to_streams=None, dont_apply_to_streams=None, field=None, to_field=None, field_to_field=None, use_query=None, process_every_value=False, get_default=None, not_exist_ok=False, n
+ot_exist_do_nothing=False, to='float', failure_default=0.0), process_prediction=True, process_references=True)]
+3  [PostProcess(__type__='post_process', __title__=None, __description__=None, __tags__={}, __deprecated_msg__=None, data_classification_policy=None, requirements=[], caching=Non
+e, operator=ExtractWithRegex(__type__='extract_with_regex', __title__=None, __description__=None, __tags__={}, __deprecated_msg__=None, data_classification_policy=None, requireme
+nts=[], caching=None, apply_to_streams=None, dont_apply_to_streams=None, field=None, to_field=None, field_to_field=None, use_query=None, process_every_value=False, get_default=No
+ne, not_exist_ok=False, not_exist_do_nothing=False, regex='####\\s*(.*)', termination_regex=None), process_prediction=False, process_references=True), processors.extract_last_num
+ber, PostProcess(__type__='post_process', __title__=None, __description__=None, __tags__={}, __deprecated_msg__=None, data_classification_policy=None, requirements=[], caching=No
+ne, operator=Cast(__type__='cast', __title__=None, __description__=None, __tags__={}, __deprecated_msg__=None, data_classification_policy=None, requirements=[], caching=None, app
+ly_to_streams=None, dont_apply_to_streams=None, field=None, to_field=None, field_to_field=None, use_query=None, process_every_value=False, get_default=None, not_exist_ok=False, n
+ot_exist_do_nothing=False, to='float', failure_default=0.0), process_prediction=True, process_references=True)]
+4  [PostProcess(__type__='post_process', __title__=None, __description__=None, __tags__={}, __deprecated_msg__=None, data_classification_policy=None, requirements=[], caching=Non
+e, operator=ExtractWithRegex(__type__='extract_with_regex', __title__=None, __description__=None, __tags__={}, __deprecated_msg__=None, data_classification_policy=None, requireme
+nts=[], caching=None, apply_to_streams=None, dont_apply_to_streams=None, field=None, to_field=None, field_to_field=None, use_query=None, process_every_value=False, get_default=No
+ne, not_exist_ok=False, not_exist_do_nothing=False, regex='####\\s*(.*)', termination_regex=None), process_prediction=False, process_references=True), processors.extract_last_num
+ber, PostProcess(__type__='post_process', __title__=None, __description__=None, __tags__={}, __deprecated_msg__=None, data_classification_policy=None, requirements=[], caching=No
+ne, operator=Cast(__type__='cast', __title__=None, __description__=None, __tags__={}, __deprecated_msg__=None, data_classification_policy=None, requirements=[], caching=None, app
+ly_to_streams=None, dont_apply_to_streams=None, field=None, to_field=None, field_to_field=None, use_query=None, process_every_value=False, get_default=None, not_exist_ok=False, n
+ot_exist_do_nothing=False, to='float', failure_default=0.0), process_prediction=True, process_references=True)]
+
+
+                                                                                                                                                        target  \
+0
+                           Janet sells 16 - 3 - 4 = <<16-3-4=9>>9 duck eggs a day.\nShe makes 9 * 2 = $<<9*2=18>>18 every day at the farmer’s market.\n#### 18
+1
+                                          It takes 2/2=<<2/2=1>>1 bolt of white fiber\nSo the total amount of fabric is 2+1=<<2+1=3>>3 bolts of fabric\n#### 3
+2  The cost of the house and repairs came out to 80,000+50,000=$<<80000+50000=130000>>130,000\nHe increased the value of the house by 80,000*1.5=<<80000*1.5=120000>>120,000\nSo t
+he new value of the house is 120,000+80,000=$<<120000+80000=200000>>200,000\nSo he made a profit of 200,000-130,000=$<<200000-130000=70000>>70,000\n#### 70000
+3
+                                                                             He sprints 3*3=<<3*3=9>>9 times\nSo he runs 9*60=<<9*60=540>>540 meters\n#### 540
+4                                   If each chicken eats 3 cups of feed per day, then for 20 chickens they would need 3*20=<<3*20=60>>60 cups of feed per day.\nIf she feeds the f
+lock 15 cups of feed in the morning, and 25 cups in the afternoon, then the final meal would require 60-15-25=<<60-15-25=20>>20 cups of chicken feed.\n#### 20
+
+
+                                                                                                                                                      references  \
+0
+                           [Janet sells 16 - 3 - 4 = <<16-3-4=9>>9 duck eggs a day.\nShe makes 9 * 2 = $<<9*2=18>>18 every day at the farmer’s market.\n#### 18]
+1
+                                          [It takes 2/2=<<2/2=1>>1 bolt of white fiber\nSo the total amount of fabric is 2+1=<<2+1=3>>3 bolts of fabric\n#### 3]
+2  [The cost of the house and repairs came out to 80,000+50,000=$<<80000+50000=130000>>130,000\nHe increased the value of the house by 80,000*1.5=<<80000*1.5=120000>>120,000\nSo
+the new value of the house is 120,000+80,000=$<<120000+80000=200000>>200,000\nSo he made a profit of 200,000-130,000=$<<200000-130000=70000>>70,000\n#### 70000]
+3
+                                                                             [He sprints 3*3=<<3*3=9>>9 times\nSo he runs 9*60=<<9*60=540>>540 meters\n#### 540]
+4                                   [If each chicken eats 3 cups of feed per day, then for 20 chickens they would need 3*20=<<3*20=60>>60 cups of feed per day.\nIf she feeds the
+flock 15 cups of feed in the morning, and 25 cups in the afternoon, then the final meal would require 60-15-25=<<60-15-25=20>>20 cups of chicken feed.\n#### 20]
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                         prediction  \
+0
+                                                                                                                                                                  <think>To determ
+ine how much Janet makes every day at the farmers' market, we need to follow these steps:\n\n1. Calculate the total number of eggs laid by the ducks each day.\n2. Determine how m
+any eggs Janet uses for herself and for baking.\n3. Find out how many eggs are left for selling.\n4. Calculate the revenue from selling the remaining eggs.\n\n1. **Total eggs lai
+d per day:**\n   Janet's ducks lay 16 eggs per day.\n\n2. **Eggs used by Janet:**\n   - For breakfast, Janet eats 3 eggs.\n   - For baking muffins, she uses 4 eggs.\n   - Total e
+ggs used by Janet = 3 (breakfast) + 4 (baking) = 7 eggs.\n\n3. **Eggs available for selling:**\n   - Eggs left for selling = Total eggs laid - Eggs used by Janet\n   - Eggs left
+for selling = 16 - 7 = 9 eggs.\n\n4. **Revenue from selling eggs:**\n   - Janet sells each egg for $2.\n   - Revenue = 9 eggs * $2/egg = $18.\n\nTherefore, Janet makes $18 every
+day at the farmers' market.</think><response>### Step-by-step Solution:\n\n1. **Total Eggs Laid:**\n   - Janet's ducks lay 16 eggs per day.\n\n2. **Eggs Used by Janet:**\n   - Fo
+r breakfast: 3 eggs\n   - For baking muffins: 4 eggs\n   - Total eggs used by Janet = 3 + 4 = 7 eggs\n\n3. **Eggs Available for Selling:**\n   - Eggs left for selling = Total egg
+s laid - Eggs used by Janet\n   - Eggs left for selling = 16 - 7 = 9 eggs\n\n4. **Revenue from Selling Eggs:**\n   - Selling price per egg = $2\n   - Revenue = 9 eggs * $2/egg =
+$18\n\n### Conclusion:\nJanet makes $\boxed{18}$ dollars every day at the farmers' market by selling the remaining eggs.</response>
+1
+
+
+                                                                                                                                     <think>To determine the total number of bolts
+ needed for the robe, we need to calculate the amount of each type of fiber required and then sum them up.\n\n1. **Blue Fiber Requirement:**\n   - The problem states that the rob
+e takes 2 bolts of blue fiber.\n\n2. **White Fiber Requirement:**\n   - The robe requires half as much white fiber as blue fiber.\n   - Since 2 bolts of blue fiber are needed, ha
+lf of that amount is \( \frac{2}{2} = 1 \) bolt of white fiber.\n\n3. **Total Bolts:**\n   - To find the total number of bolts, we add the bolts of blue fiber and white fiber tog
+ether.\n   - Total bolts = Blue fiber bolts + White fiber bolts = 2 + 1 = 3 bolts.\n\nTherefore, it takes a total of 3 bolts to make the robe.</think><response>### Step-by-step S
+olution:\n\n1. **Determine Blue Fiber Requirement:**\n   - The robe requires 2 bolts of blue fiber.\n\n2. **Determine White Fiber Requirement:**\n   - The robe requires half as m
+uch white fiber as blue fiber.\n   - Half of 2 bolts is \( \frac{2}{2} = 1 \) bolt of white fiber.\n\n3. **Calculate Total Bolts:**\n   - Total bolts = Blue fiber bolts + White f
+iber bolts\n   - Total bolts = 2 + 1 = \( \boxed{3} \)\n\n### Conclusion:\nIt takes a total of 3 bolts to make the robe.</response>
+2        <think>To determine Josh's profit, we need to follow these steps:\n\n1. Calculate the increased value of the house after repairs.\n2. Determine the total value of the ho
+use after repairs.\n3. Subtract the total amount spent (purchase price + repair costs) from the total value of the house to find the profit.\n\n**Step 1: Calculate the increased
+value of the house after repairs.**\n\nThe problem states that the repairs increased the value of the house by 150%. This means the value of the house after repairs is 250% of it
+s original value (100% original + 150% increase).\n\nOriginal value of the house = $80,000\n\nIncrease in value = 150% of $80,000 = 1.5 * $80,000 = $120,000\n\n**Step 2: Determin
+e the total value of the house after repairs.**\n\nTotal value after repairs = Original value + Increase in value\n= $80,000 + $120,000\n= $200,000\n\n**Step 3: Calculate the tot
+al amount spent and the profit.**\n\nTotal amount spent = Purchase price + Repair costs\n= $80,000 + $50,000\n= $130,000\n\nProfit = Total value after repairs - Total amount spen
+t\n= $200,000 - $130,000\n= $70,000\n\nTherefore, Josh made a profit of $70,000.</think><response>### Step-by-step Solution:\n\n1. **Calculate the increased value of the house af
+ter repairs:**\n   - Original value of the house = $80,000\n   - Increase in value = 150% of $80,000 = 1.5 * $80,000 = $120,000\n\n2. **Determine the total value of the house aft
+er repairs:**\n   - Total value after repairs = Original value + Increase in value\n   - Total value after repairs = $80,000 + $120,000 = $200,000\n\n3. **Calculate the total amo
+unt spent and the profit:**\n   - Total amount spent = Purchase price + Repair costs\n   - Total amount spent = $80,000 + $50,000 = $130,000\n   - Profit = Total value after repa
+irs - Total amount spent\n   - Profit = $200,000 - $130,000 = $70,000\n\n### Conclusion:\nJosh made a profit of $70,000.</response>
+3
+
+
+                                <think>To determine the total distance James runs in a week, we need to calculate the distance for one session of sprints and then multiply by the
+ number of sessions he runs in a week.\n\n1. **Distance per sprint**: James runs 60 meters per sprint.\n2. **Number of sprints per session**: He runs 3 sprints each time.\n3. **T
+otal distance per session**: Multiply the distance per sprint by the number of sprints.\n   \[\n   60 \text{ meters/sprint} \times 3 \text{ sprints} = 180 \text{ meters}\n   \]\n
+4. **Number of sessions per week**: James runs 3 times a week.\n5. **Total distance per week**: Multiply the total distance per session by the number of sessions per week.\n   \[
+\n   180 \text{ meters/session} \times 3 \text{ sessions/week} = 540 \text{ meters/week}\n   \]\n\nThus, James runs a total of 540 meters in a week.</think><response>### Step-by-
+step Calculation:\n\n1. **Distance per sprint**: 60 meters\n2. **Number of sprints per session**: 3\n3. **Total distance per session**:\n   \[\n   60 \text{ meters/sprint} \times
+ 3 \text{ sprints} = 180 \text{ meters}\n   \]\n4. **Number of sessions per week**: 3\n5. **Total distance per week**:\n   \[\n   180 \text{ meters/session} \times 3 \text{ sessi
+ons/week} = 540 \text{ meters/week}\n   \]\n\n### Conclusion:\nJames runs a total of \( \boxed{540} \) meters in a week.</response>
+4  <think>To determine how many cups of feed Wendi needs to give her chickens in the final meal of the day, we need to calculate the total amount of feed consumed by her flock th
+roughout the day and then subtract the amount already given in the morning and afternoon meals.\n\n1. **Total Feed Needed Daily:**\n   Each chicken requires 3 cups of feed per da
+y. With 20 chickens, the total feed needed for the day is:\n   \[\n   20 \text{ chickens} \times 3 \text{ cups/chicken} = 60 \text{ cups}\n   \]\n\n2. **Feed Given in the Morning
+ and Afternoon:**\n   - Morning meal: 15 cups\n   - Afternoon meal: 25 cups\n   Total feed given in the morning and afternoon:\n   \[\n   15 \text{ cups} + 25 \text{ cups} = 40 \
+text{ cups}\n   \]\n\n3. **Feed Needed in the Final Meal:**\n   Subtract the amount already given from the total daily requirement:\n   \[\n   60 \text{ cups (total needed)} - 40
+ \text{ cups (already given)} = 20 \text{ cups}\n   \]\n\nTherefore, Wendi needs to give her chickens 20 cups of feed in the final meal of the day.</think><response>### Step-by-s
+tep Solution:\n\n1. **Calculate Total Daily Feed Requirement:**\n   - Each chicken needs 3 cups of feed per day.\n   - With 20 chickens, the total feed required is:\n     \[\n
+  20 \text{ chickens} \times 3 \text{ cups/chicken} = 60 \text{ cups}\n     \]\n\n2. **Calculate Feed Given in the Morning and Afternoon:**\n   - Morning meal: 15 cups\n   - Afte
+rnoon meal: 25 cups\n   - Total for morning and afternoon:\n     \[\n     15 \text{ cups} + 25 \text{ cups} = 40 \text{ cups}\n     \]\n\n3. **Determine Feed Needed for the Final
+ Meal:**\n   - Subtract the feed already given from the total daily requirement:\n     \[\n     60 \text{ cups (total needed)} - 40 \text{ cups (already given)} = 20 \text{ cups}
+\n     \]\n\n### Conclusion:\nWendi needs to give her chickens \(\boxed{20}\) cups of feed in the final meal of the day.</response>
+
+   processed_prediction processed_references  root_mean_squared_error score_name  score  accuracy
+0                    18               [18.0]                        0   accuracy      1         1
+1                     3                [3.0]                        0   accuracy      1         1
+2                 7e+04            [70000.0]                        0   accuracy      1         1
+3               5.4e+02              [540.0]                        0   accuracy      1         1
+4                    20               [20.0]                        0   accuracy      1         1
+

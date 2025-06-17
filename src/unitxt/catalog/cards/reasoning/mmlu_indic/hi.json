@@ -1,0 +1,51 @@
+{
+    "__type__": "task_card",
+    "loader": {
+        "__type__": "load_hf",
+        "path": "sarvamai/mmlu-indic",
+        "data_dir": "hi",
+        "splits": [
+            "validation",
+            "test"
+        ]
+    },
+    "preprocess_steps": [
+        {
+            "__type__": "deduplicate",
+            "by": [
+                "question",
+                "answer",
+                "choices"
+            ]
+        },
+        {
+            "__type__": "rename_splits",
+            "mapper": {
+                "validation": "train"
+            }
+        }
+    ],
+    "task": "tasks.qa.multiple_choice.open",
+    "templates": [
+        "templates.qa.multiple_choice.reasoning"
+    ],
+    "__tags__": {
+        "annotations_creators": "no-annotation",
+        "arxiv": [
+            "2009.03300",
+            "2005.00700",
+            "2005.14165",
+            "2008.02275"
+        ],
+        "language": "hi",
+        "language_creators": "expert-generated",
+        "license": "mit",
+        "multilinguality": "multilingual",
+        "region": "in",
+        "size_categories": "100K - 1M",
+        "source_datasets": "original",
+        "task_categories": "question-answering",
+        "task_ids": "multiple-choice-qa"
+    },
+    "__description__": "A multilingual version of the Massive Multitask Language Understanding (MMLU) benchmark, translated from English into 10 Indian languages. This version contains the translations of the development and test sets only.\nMore information can be found on the dataset page: https://huggingface.co/datasets/sarvamai/mmlu-indicMore information about the original MMLU benchmark can be found here: https://huggingface.co/datasets/cais/mmlu"
+}

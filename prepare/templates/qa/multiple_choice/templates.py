@@ -550,24 +550,65 @@ add_to_catalog(
 )
 
 
+# # multiple choice question with reasoning
+# add_to_catalog(
+#     MultipleChoiceTemplate(
+#         instruction=( 
+#             "You are given a multiple choice question. Choose the correct option from the given options following the instructions carefully:\n\n"
+#             "1. Think step-by-step to arrive at the correct answer.\n"
+#             "2. Enclose your entire reasoning within <think> ... </think> tags.\n"
+#             "3. After the reasoning, provide your final answer only as a single character corresponding to the correct option within <response> ... </response> tags.\n"
+#             "4. Do not include any words, symbols, or explanations inside the <response> tag — only the correct option character.\n"
+#         ),
+#         input_format="Question: {question}\nChoices:\n{choices}\n",        
+#         target_field="answer",
+#         choices_separator="\n",
+#         postprocessors=[PostProcess(ExtractWithRegex(regex='<response>(.*?)</response>'), process_references=False), "processors.first_character", "processors.lower_case"],
+#     ),
+#     "templates.qa.multiple_choice.reasoning",
+#     overwrite=True,
+# )
+
 # multiple choice question with reasoning
 add_to_catalog(
     MultipleChoiceTemplate(
-        instruction=( 
-            "You are given a multiple choice question. Choose the correct option from the given options following the instructions carefully:\n\n"
-            "1. Think step-by-step to arrive at the correct answer.\n"
-            "2. Enclose your entire reasoning within <think> ... </think> tags.\n"
-            "3. After the reasoning, provide your final answer only as a single character corresponding to the correct option within <response> ... </response> tags.\n"
-            "4. Do not include any words, symbols, or explanations inside the <response> tag — only the correct option character.\n"
-        ),
         input_format="Question: {question}\nChoices:\n{choices}\n",        
         target_field="answer",
         choices_separator="\n",
-        postprocessors=[PostProcess(ExtractWithRegex(regex='<response>(.*?)</response>'), process_references=False), "processors.first_character", "processors.lower_case"],
+        postprocessors=["processors.extract_multiple_choice_answer", "processors.first_character", "processors.lower_case"],
     ),
     "templates.qa.multiple_choice.reasoning",
     overwrite=True,
 )
+
+add_to_catalog(
+    MultipleChoiceTemplate(
+        input_format="Question: {question}\nChoices:\n{choices}\n. Let's think step by step.\n",        
+        target_field="answer",
+        choices_separator="\n",
+        postprocessors=["processors.extract_multiple_choice_answer", "processors.first_character", "processors.lower_case"],
+    ),
+    "templates.qa.multiple_choice.reasoning.zero_shot",
+    overwrite=True,
+)
+
+# # multiple choice question with reasoning and context (adopted template from lm_eval_harness)
+# input_format = "Context: {context}\nQuestion: {question}\nChoices:\n{choices}\nAnswer:"
+# add_to_catalog(
+#     MultipleChoiceTemplate(
+#         input_format=input_format,
+#         target_field="answer",
+#         choices_separator="\n",
+#         instruction="You are given a context passage and a multiple choice question. Choose the correct option from the given choices following the instructions carefully:\n\n"
+#                    "1. Think step-by-step to arrive at the correct answer.\n"
+#                    "2. Enclose your entire reasoning within <think> ... </think> tags.\n"
+#                    "3. After the reasoning, provide your final answer only as a single character corresponding to the correct option within <response> ... </response> tags.\n"
+#                    "4. Do not include any words, symbols, or explanations inside the <response> tag — only the correct option character.",
+#         postprocessors=[PostProcess(ExtractWithRegex(regex='<response>(.*?)</response>'), process_references=False), "processors.first_character", "processors.lower_case"],
+#     ),
+#     "templates.qa.multiple_choice.with_context.reasoning",
+#     overwrite=True,
+# )
 
 # multiple choice question with reasoning and context (adopted template from lm_eval_harness)
 input_format = "Context: {context}\nQuestion: {question}\nChoices:\n{choices}\nAnswer:"
@@ -576,12 +617,7 @@ add_to_catalog(
         input_format=input_format,
         target_field="answer",
         choices_separator="\n",
-        instruction="You are given a context passage and a multiple choice question. Choose the correct option from the given choices following the instructions carefully:\n\n"
-                   "1. Think step-by-step to arrive at the correct answer.\n"
-                   "2. Enclose your entire reasoning within <think> ... </think> tags.\n"
-                   "3. After the reasoning, provide your final answer only as a single character corresponding to the correct option within <response> ... </response> tags.\n"
-                   "4. Do not include any words, symbols, or explanations inside the <response> tag — only the correct option character.",
-        postprocessors=[PostProcess(ExtractWithRegex(regex='<response>(.*?)</response>'), process_references=False), "processors.first_character", "processors.lower_case"],
+        postprocessors=["processors.extract_multiple_choice_answer", "processors.first_character", "processors.lower_case"],
     ),
     "templates.qa.multiple_choice.with_context.reasoning",
     overwrite=True,

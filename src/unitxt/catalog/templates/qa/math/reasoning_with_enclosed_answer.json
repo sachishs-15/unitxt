@@ -1,0 +1,26 @@
+{
+    "__type__": "input_output_template",
+    "instruction": "You are a helpful and accurate math tutor. Solve the math problem following the instructions carefully:\n\n1. Think step-by-step to arrive at the correct answer.\n2. Enclose your entire reasoning within <think> ... </think> tags.\n3. After the reasoning, provide your answer within <response> ... </response> tags.\n",
+    "input_format": "Here is a mathematical question. Give the final numerical answer as a single number with no units or text within <answer> ... </answer> tags.\nQuestion: {question}\n\n",
+    "output_format": "{answer}",
+    "postprocessors": [
+        {
+            "__type__": "post_process",
+            "process_references": false,
+            "operator": {
+                "__type__": "extract_with_regex",
+                "regex": "<answer>(.*?)</answer>"
+            }
+        },
+        {
+            "__type__": "post_process",
+            "process_references": true,
+            "process_prediction": true,
+            "operator": {
+                "__type__": "cast",
+                "to": "float",
+                "failure_default": 0.0
+            }
+        }
+    ]
+}

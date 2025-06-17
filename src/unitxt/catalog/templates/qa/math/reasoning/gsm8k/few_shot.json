@@ -1,0 +1,26 @@
+{
+    "__type__": "input_output_template",
+    "input_format": "Q: {question}\nA:",
+    "output_format": "{answer}",
+    "postprocessors": [
+        {
+            "__type__": "post_process",
+            "process_prediction": false,
+            "operator": {
+                "__type__": "extract_with_regex",
+                "regex": "####\\s*(.*)"
+            }
+        },
+        "processors.extract_last_number",
+        {
+            "__type__": "post_process",
+            "process_references": true,
+            "process_prediction": true,
+            "operator": {
+                "__type__": "cast",
+                "to": "float",
+                "failure_default": 0.0
+            }
+        }
+    ]
+}
