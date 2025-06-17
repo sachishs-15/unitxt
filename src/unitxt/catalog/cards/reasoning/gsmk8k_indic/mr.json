@@ -1,0 +1,47 @@
+{
+    "__type__": "task_card",
+    "loader": {
+        "__type__": "load_hf",
+        "path": "sarvamai/gsm8k-indic",
+        "data_dir": "mr",
+        "splits": [
+            "test"
+        ]
+    },
+    "preprocess_steps": [
+        {
+            "__type__": "deduplicate",
+            "by": [
+                "question",
+                "answer",
+                "original_question"
+            ]
+        },
+        {
+            "__type__": "extract_with_regex",
+            "regex": "####\\s*(.*)",
+            "field": "answer",
+            "to_field": "answer"
+        }
+    ],
+    "task": "tasks.qa.math",
+    "templates": [
+        "templates.qa.math.reasoning"
+    ],
+    "__tags__": {
+        "annotations_creators": "no-annotation",
+        "arxiv": [
+            "2110.14168"
+        ],
+        "language": "mr",
+        "language_creators": "expert-generated",
+        "license": "mit",
+        "multilinguality": "multilingual",
+        "region": "in",
+        "size_categories": "10K<n<100K",
+        "source_datasets": "original",
+        "task_categories": "question-answering",
+        "task_ids": "math-qa"
+    },
+    "__description__": "Translated version of the GSM8K dataset into 10 Indian languages.\nGSM8K (Grade School Math 8K) is a dataset of 8.5K high quality linguistically diverse grade school math word problems.\nThe dataset was created to support the task of question answering on basic mathematical problems that require multi-step reasoning.\nMore information can be found on the dataset page: https://huggingface.co/datasets/sarvamai/gsm8k-indic\nMore information about the original dataset can be found on the GSM8K page: https://huggingface.co/datasets/openai/gsm8k\n"
+}

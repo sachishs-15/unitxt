@@ -1,0 +1,25 @@
+{
+    "__type__": "input_output_template",
+    "input_format": "Here is a mathematical question. Give the final numerical answer as a single number with no units or text within <answer> ... </answer> tags.\nQuestion: {question}\n\n",
+    "output_format": "{answer}",
+    "postprocessors": [
+        {
+            "__type__": "post_process",
+            "process_references": false,
+            "operator": {
+                "__type__": "extract_with_regex",
+                "regex": "<answer>(.*?)</answer>"
+            }
+        },
+        {
+            "__type__": "post_process",
+            "process_references": true,
+            "process_prediction": true,
+            "operator": {
+                "__type__": "cast",
+                "to": "float",
+                "failure_default": 0.0
+            }
+        }
+    ]
+}
