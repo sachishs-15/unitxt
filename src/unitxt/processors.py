@@ -539,3 +539,30 @@ class ExtractVerbalJudgment(FieldOperator):
 
 class ExtractVerbalJudgementBadGood(ExtractVerbalJudgment):
     classes = ["very bad", "bad", "mediocre", "good", "very good"]
+
+# extracting the last numerical value as a float
+class ExtractLastNumber(FieldOperator):
+    pattern = r'(-?[$0-9.,]{2,})|(-?[0-9]+)'
+
+    def process_value(self, text: Any) -> Any:
+        matches = re.findall(self.pattern, text)
+        if not matches:
+            return 0.0
+        last_match = matches[-1]
+        number_str = last_match[0] if last_match[0] else last_match[1]
+        cleaned = number_str.replace('$', '').replace(',', '')
+        return cleaned
+
+class ExtractMultipleChoiceAnswer(FieldOperator):
+    pattern = r'(?i)(?:the\s+)?(?:correct\s+|final\s+)?(?:answer|choice|option)\s*(?:is|:|=)\s*([A-Z]|[0-9]+)(?:\)|\.|\s|$)'
+
+    def process_value(self, text: Any) -> Any:
+        matches = re.findall(self.pattern, text)
+        if matches:
+            return matches[-1].strip().upper() 
+        #Fallback: look for standalone letters at end
+        fallback_pattern = r'\b([A-Z])\b(?=\s*(?:\.|$))'
+        fallback_matches = re.findall(fallback_pattern, text)
+        if fallback_matches:
+            return fallback_matches[-1].upper()
+        return ""

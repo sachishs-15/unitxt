@@ -358,6 +358,9 @@ class ChatAPIFormat(BaseFormat):
         The resulting `messages` is now a dictionary ready for sending to the OpenAI API.
     """
 
+    place_instruction_in_user_turns: bool = False
+    add_target_prefix: bool = True
+
     def to_content(self, text: str, media: Dict[str, Any]) -> Union[str, List[Content]]:
         # Regular expression to find <img> tags with src attribute
         img_tag_pattern = re.compile(
@@ -422,9 +425,11 @@ class ChatAPIFormat(BaseFormat):
     ) -> List[Message]:
         messages = []
 
-        if system_prompt or instruction:
+        if system_prompt or (instruction and not self.place_instruction_in_user_turns):
             system_content = self.to_content(
-                system_prompt + ("\n" if system_prompt != "" else "") + instruction,
+                system_prompt
+                + ("\n" if system_prompt != "" else "")
+                + (instruction if not self.place_instruction_in_user_turns else ""),
                 media,
             )
             messages.append(
@@ -435,9 +440,15 @@ class ChatAPIFormat(BaseFormat):
             )
 
         for demo_instance in demos:
-            user_content = self.to_content(demo_instance["source"], media)
+            text = demo_instance["source"]
+            if instruction and self.place_instruction_in_user_turns:
+                text = f"{instruction}\n{text}"
+
+            user_content = self.to_content(text, media)
             assistant_content = self.to_content(
-                target_prefix + demo_instance["target"], media
+                (target_prefix if self.add_target_prefix else "")
+                + demo_instance["target"],
+                media,
             )
             messages.extend(
                 [
@@ -449,7 +460,11 @@ class ChatAPIFormat(BaseFormat):
                 ]
             )
 
-        last_user_content = self.to_content(source, media)
+        text = source
+        if instruction and self.place_instruction_in_user_turns:
+            text = f"{instruction}\n{text}"
+
+        last_user_content = self.to_content(text, media)
 
         messages.extend([{"role": "user", "content": last_user_content}])
 
@@ -492,6 +507,7 @@ class HFSystemFormat(ChatAPIFormat):
     """
 
     model_name: str
+    chat_kwargs_dict: Dict[str, str] = {}
     _requirements_list = ["transformers", "Jinja2"]
 
     @retry_connection_with_exponential_backoff(backoff_factor=2)
@@ -515,7 +531,10 @@ class HFSystemFormat(ChatAPIFormat):
         )
         return (
             self.tokenizer.apply_chat_template(
-                chat, tokenize=False, add_generation_prompt=True
+                chat,
+                tokenize=False,
+                add_generation_prompt=True,
+                **self.chat_kwargs_dict,
             )
             + target_prefix
         )

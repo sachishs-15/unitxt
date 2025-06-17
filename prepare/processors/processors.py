@@ -37,6 +37,8 @@ from unitxt.processors import (
     Upper,
     YesNoToInt,
     YesToOneElseZero,
+    ExtractLastNumber,
+    ExtractMultipleChoiceAnswer
 )
 from unitxt.settings_utils import get_constants
 
@@ -299,6 +301,20 @@ add_processor_and_operator_to_catalog(
 add_processor_and_operator_to_catalog(
     artifact_name="extract_verbal_judgement_bad_good",
     operator=ExtractVerbalJudgementBadGood(),
+    overwrite=True,
+    process_references=False,
+)
+
+add_processor_and_operator_to_catalog(
+    artifact_name="extract_last_number",
+    operator=ExtractLastNumber(),
+    overwrite=True,
+    process_references=False,
+)
+
+add_processor_and_operator_to_catalog(
+    artifact_name="extract_multiple_choice_answer",
+    operator=ExtractMultipleChoiceAnswer(),
     overwrite=True,
     process_references=False,
 )
