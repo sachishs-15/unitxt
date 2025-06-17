@@ -8,6 +8,7 @@ from unitxt.templates import InputOutputTemplate
 import torch
 
 logger = get_logger()
+model_path = "/dccstor/indiclm/rudra/granite-magpie-translated-sft-ckps/nb-indic-run3-chkp900"  # Path to the model weights file or model name (ibm-granite/granite-3.3-8b-instruct)
 
 for thinking in [True, False]:
     
@@ -35,7 +36,7 @@ for thinking in [True, False]:
     
     # dataset.to(device)
     model = HFAutoModelInferenceEngine(
-        model_name="ibm-granite/granite-3.3-8b-instruct", **model_args_dict, max_new_tokens=8192
+        model_name=model_path, **model_args_dict, max_new_tokens=8192
     )
 
     breakpoint()
